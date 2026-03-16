@@ -1,0 +1,519 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{54NonidealEffects}{online}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{5.4. {{Non-ideal}} Effects}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\KCCMZERQ\ch5_4.html
+      \endverb
+      \verb{urlraw}
+      \verb https://truenano.com/PSD20phone/chapter5/ch5_4.htm
+      \endverb
+      \verb{url}
+      \verb https://truenano.com/PSD20phone/chapter5/ch5_4.htm
+      \endverb
+    \endentry
+    \entry{caoPublisherCorrectionFuture2023}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=0979631962d67da3f16e265d34392902}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=49f496e6fcba7a8251a920876b4cd14b}{%
+           family={Bu},
+           familyi={B\bibinitperiod},
+           given={Huiming},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1a978601e7745171a9829a87562dbcb7}{%
+           family={Vinet},
+           familyi={V\bibinitperiod},
+           given={Maud},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bf55449c2720156eed1df6b839a7a30e}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fc6d0bceb67839c1b6eda1de4e8932a8}{%
+           family={Takagi},
+           familyi={T\bibinitperiod},
+           given={Shinichi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cb223328ff5ee8e7f03fe1739e84be9d}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Sungwoo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=064ca0ed0a861e907d93fa87fc2e63cf}{%
+           family={Ghani},
+           familyi={G\bibinitperiod},
+           given={Tahir},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1964b0877190132efbebb17b0d073078}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Kaustav},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2ec325965ef3492a7737e21e4aa22c8}
+      \strng{fullhash}{2157dbbc3c8fc1d5ec479cb31b7990e1}
+      \strng{fullhashraw}{2157dbbc3c8fc1d5ec479cb31b7990e1}
+      \strng{bibnamehash}{c2ec325965ef3492a7737e21e4aa22c8}
+      \strng{authorbibnamehash}{c2ec325965ef3492a7737e21e4aa22c8}
+      \strng{authornamehash}{c2ec325965ef3492a7737e21e4aa22c8}
+      \strng{authorfullhash}{2157dbbc3c8fc1d5ec479cb31b7990e1}
+      \strng{authorfullhashraw}{2157dbbc3c8fc1d5ec479cb31b7990e1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{21}
+      \field{issn}{0028-0836, 1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{7979}
+      \field{shortjournal}{Nature}
+      \field{shorttitle}{Publisher {{Correction}}}
+      \field{title}{Publisher {{Correction}}: {{The}} Future Transistors}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{621}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{E43\bibrangedash E43}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1038/s41586-023-06576-6
+      \endverb
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\BCFJKM9W\Cao et al. - 2023 - Publisher Correction The future transistors.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41586-023-06576-6
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41586-023-06576-6
+      \endverb
+    \endentry
+    \entry{EarlyEffect2024}{inreference}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Early effect, named after its discoverer James M. Early, is the variation in the effective width of the base in a bipolar junction transistor (BJT) due to a variation in the applied base-to-collector voltage. A greater reverse bias across the collector–base junction, for example, increases the collector–base depletion width, thereby decreasing the width of the charge carrier portion of the base.}
+      \field{annotation}{Page Version ID: 1250000140}
+      \field{booktitle}{Wikipedia}
+      \field{day}{7}
+      \field{hour}{23}
+      \field{langid}{english}
+      \field{minute}{10}
+      \field{month}{10}
+      \field{second}{9}
+      \field{timezone}{Z}
+      \field{title}{Early Effect}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\7KXVIASK\Early_effect.html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Early_effect&oldid=1250000140
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Early_effect&oldid=1250000140
+      \endverb
+    \endentry
+    \entry{Lab2BJT}{unpublished}{}{}
+      \list{location}{1}{%
+        {Xi'an Jiaotong Liverpool University}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Lab Script}
+      \field{langid}{english}
+      \field{pagetotal}{24}
+      \field{title}{Lab 2: {{BJT}} and {{Amplifiers Pre-Lab Materials}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://core.xjtlu.edu.cn/pluginfile.php/161155/mod_folder/content/0/EEE109_Lab2_BJT%20and%20Amplifiers_Pre_lab%20materials.pdf
+      \endverb
+      \verb{url}
+      \verb https://core.xjtlu.edu.cn/pluginfile.php/161155/mod_folder/content/0/EEE109_Lab2_BJT%20and%20Amplifiers_Pre_lab%20materials.pdf
+      \endverb
+    \endentry
+    \entry{neamenMicroelectronicsCircuitAnalysis2007}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=ba23b5b50e91c8ffed7d3ba41e95ef9e}{%
+           family={Neamen},
+           familyi={N\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{fullhash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{fullhashraw}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{bibnamehash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{authorbibnamehash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{authornamehash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{authorfullhash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{authorfullhashraw}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"This junior level electronics text provides a foundation for analyzing and designing analog and digital electronic circuits. Numerous new pedagogical features continue the tradition of providing an accessible approach to learning through clear writing and real-world pedagogy. The third edition includes numerous design examples, a new Design Application feature, problem solving technique pointers, Test Your Understanding questions at the end of every section, and chapter summary checkpoints to reinforce learning. The author, Don Neamen, has many years of experience as an Engineering Educator. His experience shines through each chapter of the book, which retains a design focus supported by rich, realistic examples and practical rules of thumb. The Third Edition continues to offer the same hallmark features that made the previous editions such a success. Extensive Pedagogy: An Introduction at the beginning of each chapter links the new chapter to the material presented in previous chapters. The objectives of the chapter are then presented in the Preview section and reinforced at the beginning of each chapter subsection. Test Your Understanding Exercise Problems with provided answers have all been updated. New Design Applications are included at the ends of chapters. These applications lead students through the design and development of an electronic thermometer. Each specific design ties into the objectives of the chapter. Specific Design Problems and Examples are highlighted throughout the book, along with design pointers which help students tackle tricky design issues." -- Publisher.}
+      \field{eprinttype}{googlebooks}
+      \field{isbn}{978-0-07-252362-1}
+      \field{langid}{english}
+      \field{pagetotal}{1370}
+      \field{shorttitle}{Microelectronics}
+      \field{title}{Microelectronics: {{Circuit Analysis}} and {{Design}}}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb C3yLQgAACAAJ
+      \endverb
+      \keyw{Technology & Engineering / Electrical,Technology & Engineering / Electronics / Circuits / General,Technology & Engineering / Electronics / General,Technology & Engineering / Electronics / Microelectronics}
+    \endentry
+    \entry{onsemiGeneralPurposeLow}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{hash=32bc39864e9eef18a46b5c815b467635}{%
+           family={{Onsemi}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{32bc39864e9eef18a46b5c815b467635}
+      \strng{fullhash}{32bc39864e9eef18a46b5c815b467635}
+      \strng{fullhashraw}{32bc39864e9eef18a46b5c815b467635}
+      \strng{bibnamehash}{32bc39864e9eef18a46b5c815b467635}
+      \strng{authorbibnamehash}{32bc39864e9eef18a46b5c815b467635}
+      \strng{authornamehash}{32bc39864e9eef18a46b5c815b467635}
+      \strng{authorfullhash}{32bc39864e9eef18a46b5c815b467635}
+      \strng{authorfullhashraw}{32bc39864e9eef18a46b5c815b467635}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{General {{Purpose}} and {{Low VCE}}(Sat) {{Transistors}} | {{2N3904}}}
+      \field{type}{Datasheet}
+      \verb{urlraw}
+      \verb https://www.onsemi.com/download/data-sheet/pdf/2n3903-d.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.onsemi.com/download/data-sheet/pdf/2n3903-d.pdf
+      \endverb
+    \endentry
+    \entry{shurBipolarTransistors2003}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=b9c2e4847b3dc09f20e3803ca8204417}{%
+           family={Shur},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b9c2e4847b3dc09f20e3803ca8204417}
+      \strng{fullhash}{b9c2e4847b3dc09f20e3803ca8204417}
+      \strng{fullhashraw}{b9c2e4847b3dc09f20e3803ca8204417}
+      \strng{bibnamehash}{b9c2e4847b3dc09f20e3803ca8204417}
+      \strng{authorbibnamehash}{b9c2e4847b3dc09f20e3803ca8204417}
+      \strng{authornamehash}{b9c2e4847b3dc09f20e3803ca8204417}
+      \strng{authorfullhash}{b9c2e4847b3dc09f20e3803ca8204417}
+      \strng{authorfullhashraw}{b9c2e4847b3dc09f20e3803ca8204417}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of {{Physical Science}} and {{Technology}}}
+      \field{isbn}{978-0-12-227410-7}
+      \field{langid}{english}
+      \field{title}{Bipolar {{Transistors}}}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{273\bibrangedash 280}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/B0-12-227410-5/00070-3
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B0122274105000703
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B0122274105000703
+      \endverb
+    \endentry
+    \entry{storrCommonEmitterAmplifier2013}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=fd429e0791c3ccbecaebc8595b389f12}{%
+           family={Storr},
+           familyi={S\bibinitperiod},
+           given={Wayne},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Basic Electronics Tutorials}%
+      }
+      \strng{namehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{fullhash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{fullhashraw}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{bibnamehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authorbibnamehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authornamehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authorfullhash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authorfullhashraw}{fd429e0791c3ccbecaebc8595b389f12}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Electronics Tutorial about the Common Emitter Amplifier and Transistor Amplifier Circuits including its Load Line Graph and Calculations}
+      \field{day}{25}
+      \field{hour}{6}
+      \field{langid}{english}
+      \field{minute}{15}
+      \field{month}{7}
+      \field{second}{36}
+      \field{timezone}{Z}
+      \field{title}{Common {{Emitter Amplifier}} and {{Transistor Amplifiers}}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\5QJXEXHC\amp_2.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.electronics-tutorials.ws/amplifier/amp_2.html
+      \endverb
+      \verb{url}
+      \verb https://www.electronics-tutorials.ws/amplifier/amp_2.html
+      \endverb
+    \endentry
+    \entry{strattonAnswerOscilloscopeRun2018}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=8fb73fc9f1f634ba3ab06c2ba850f949}{%
+           family={Stratton},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Electrical Engineering Stack Exchange}%
+      }
+      \strng{namehash}{8fb73fc9f1f634ba3ab06c2ba850f949}
+      \strng{fullhash}{8fb73fc9f1f634ba3ab06c2ba850f949}
+      \strng{fullhashraw}{8fb73fc9f1f634ba3ab06c2ba850f949}
+      \strng{bibnamehash}{8fb73fc9f1f634ba3ab06c2ba850f949}
+      \strng{authorbibnamehash}{8fb73fc9f1f634ba3ab06c2ba850f949}
+      \strng{authornamehash}{8fb73fc9f1f634ba3ab06c2ba850f949}
+      \strng{authorfullhash}{8fb73fc9f1f634ba3ab06c2ba850f949}
+      \strng{authorfullhashraw}{8fb73fc9f1f634ba3ab06c2ba850f949}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{11}
+      \field{title}{Answer to "{{Oscilloscope Run}}/{{Stop}} Output Signal"}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\Q4APVVH7\oscilloscope-run-stop-output-signal.html
+      \endverb
+      \verb{urlraw}
+      \verb https://electronics.stackexchange.com/a/409764
+      \endverb
+      \verb{url}
+      \verb https://electronics.stackexchange.com/a/409764
+      \endverb
+    \endentry
+    \entry{subramaniNanoelectronicApplicationsCarbon2023}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{hash=cd9d6452ecdfefca5f243f80b8883859}{%
+           family={Subramani},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi Shiva},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=adcba040678a6ef71c0515c8cca97a4f}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Soumyo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4be47a6f85994133b3d1e894c194d79a}{%
+           family={Mohanta},
+           familyi={M\bibinitperiod},
+           given={Kallol},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{95ce1f9bbb69f021d6eac8779a02e7ee}
+      \strng{fullhash}{95ce1f9bbb69f021d6eac8779a02e7ee}
+      \strng{fullhashraw}{95ce1f9bbb69f021d6eac8779a02e7ee}
+      \strng{bibnamehash}{95ce1f9bbb69f021d6eac8779a02e7ee}
+      \strng{authorbibnamehash}{95ce1f9bbb69f021d6eac8779a02e7ee}
+      \strng{authornamehash}{95ce1f9bbb69f021d6eac8779a02e7ee}
+      \strng{authorfullhash}{95ce1f9bbb69f021d6eac8779a02e7ee}
+      \strng{authorfullhashraw}{95ce1f9bbb69f021d6eac8779a02e7ee}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Carbon {{Quantum Dots}} for {{Sustainable Energy}} and {{Optoelectronics}}}
+      \field{isbn}{978-0-323-90895-5}
+      \field{langid}{english}
+      \field{title}{Nanoelectronic Applications of Carbon Quantum Dots}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{183\bibrangedash 203}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/B978-0-323-90895-5.00010-2
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780323908955000102
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780323908955000102
+      \endverb
+    \endentry
+    \entry{vasiliyAnswerWhyCant2013}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=5d9b2a1ee6586c626fee6a9fa23c0650}{%
+           family={Vasiliy},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Electrical Engineering Stack Exchange}%
+      }
+      \strng{namehash}{5d9b2a1ee6586c626fee6a9fa23c0650}
+      \strng{fullhash}{5d9b2a1ee6586c626fee6a9fa23c0650}
+      \strng{fullhashraw}{5d9b2a1ee6586c626fee6a9fa23c0650}
+      \strng{bibnamehash}{5d9b2a1ee6586c626fee6a9fa23c0650}
+      \strng{authorbibnamehash}{5d9b2a1ee6586c626fee6a9fa23c0650}
+      \strng{authornamehash}{5d9b2a1ee6586c626fee6a9fa23c0650}
+      \strng{authorfullhash}{5d9b2a1ee6586c626fee6a9fa23c0650}
+      \strng{authorfullhashraw}{5d9b2a1ee6586c626fee6a9fa23c0650}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{24}
+      \field{month}{9}
+      \field{shorttitle}{Answer to "{{Why}} Can't Two Series-Connected Diodes Act as a {{BJT}}?}
+      \field{title}{Answer to "{{Why}} Can't Two Series-Connected Diodes Act as a {{BJT}}?"}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\AB3S4WSL\why-cant-two-series-connected-diodes-act-as-a-bjt.html
+      \endverb
+      \verb{urlraw}
+      \verb https://electronics.stackexchange.com/a/83268
+      \endverb
+      \verb{url}
+      \verb https://electronics.stackexchange.com/a/83268
+      \endverb
+    \endentry
+    \entry{waseemUnderstandingNPNVs2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=203556adc59718ecae12828bc4c307ad}{%
+           family={Waseem},
+           familyi={W\bibinitperiod},
+           given={Umar},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{203556adc59718ecae12828bc4c307ad}
+      \strng{fullhash}{203556adc59718ecae12828bc4c307ad}
+      \strng{fullhashraw}{203556adc59718ecae12828bc4c307ad}
+      \strng{bibnamehash}{203556adc59718ecae12828bc4c307ad}
+      \strng{authorbibnamehash}{203556adc59718ecae12828bc4c307ad}
+      \strng{authornamehash}{203556adc59718ecae12828bc4c307ad}
+      \strng{authorfullhash}{203556adc59718ecae12828bc4c307ad}
+      \strng{authorfullhashraw}{203556adc59718ecae12828bc4c307ad}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article delves into the specifics of NPN and PNP transistors, their working principles, applications, comparisons, and factors to consider when choosing between them.}
+      \field{day}{19}
+      \field{month}{12}
+      \field{shorttitle}{Understanding {{NPN}} vs {{PNP Transistors}}}
+      \field{title}{Understanding {{NPN}} vs {{PNP Transistors}}: {{A Comprehensive Guide}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\YNLPL55G\npn-vs-pnp-bjt-transistor-understanding-the-basics.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.wevolver.com/article/npn-vs-pnp-bjt-transistor-understanding-the-basics
+      \endverb
+      \verb{url}
+      \verb https://www.wevolver.com/article/npn-vs-pnp-bjt-transistor-understanding-the-basics
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

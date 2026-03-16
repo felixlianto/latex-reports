@@ -1,0 +1,228 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{gaoInterfacingESSMicrogrid2015}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=25f432fef8dd26d510c4831d9eccea73}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima Wenzhong},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{25f432fef8dd26d510c4831d9eccea73}
+      \strng{fullhash}{25f432fef8dd26d510c4831d9eccea73}
+      \strng{fullhashraw}{25f432fef8dd26d510c4831d9eccea73}
+      \strng{bibnamehash}{25f432fef8dd26d510c4831d9eccea73}
+      \strng{authorbibnamehash}{25f432fef8dd26d510c4831d9eccea73}
+      \strng{authornamehash}{25f432fef8dd26d510c4831d9eccea73}
+      \strng{authorfullhash}{25f432fef8dd26d510c4831d9eccea73}
+      \strng{authorfullhashraw}{25f432fef8dd26d510c4831d9eccea73}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Energy {{Storage}} for {{Sustainable Microgrid}}}
+      \field{isbn}{978-0-12-803374-6}
+      \field{langid}{english}
+      \field{title}{Interfacing {{Between}} an {{ESS}} and a {{Microgrid}}}
+      \field{urlday}{4}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{79\bibrangedash 121}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-803374-6.00003-2
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128033746000032
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128033746000032
+      \endverb
+    \endentry
+    \entry{neamenMicroelectronicsCircuitAnalysis2007}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=ba23b5b50e91c8ffed7d3ba41e95ef9e}{%
+           family={Neamen},
+           familyi={N\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{fullhash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{fullhashraw}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{bibnamehash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{authorbibnamehash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{authornamehash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{authorfullhash}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \strng{authorfullhashraw}{ba23b5b50e91c8ffed7d3ba41e95ef9e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"This junior level electronics text provides a foundation for analyzing and designing analog and digital electronic circuits. Numerous new pedagogical features continue the tradition of providing an accessible approach to learning through clear writing and real-world pedagogy. The third edition includes numerous design examples, a new Design Application feature, problem solving technique pointers, Test Your Understanding questions at the end of every section, and chapter summary checkpoints to reinforce learning. The author, Don Neamen, has many years of experience as an Engineering Educator. His experience shines through each chapter of the book, which retains a design focus supported by rich, realistic examples and practical rules of thumb. The Third Edition continues to offer the same hallmark features that made the previous editions such a success. Extensive Pedagogy: An Introduction at the beginning of each chapter links the new chapter to the material presented in previous chapters. The objectives of the chapter are then presented in the Preview section and reinforced at the beginning of each chapter subsection. Test Your Understanding Exercise Problems with provided answers have all been updated. New Design Applications are included at the ends of chapters. These applications lead students through the design and development of an electronic thermometer. Each specific design ties into the objectives of the chapter. Specific Design Problems and Examples are highlighted throughout the book, along with design pointers which help students tackle tricky design issues." -- Publisher.}
+      \field{eprinttype}{googlebooks}
+      \field{isbn}{978-0-07-252362-1}
+      \field{langid}{english}
+      \field{pagetotal}{1370}
+      \field{shorttitle}{Microelectronics}
+      \field{title}{Microelectronics: {{Circuit Analysis}} and {{Design}}}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb C3yLQgAACAAJ
+      \endverb
+      \keyw{Technology & Engineering / Electrical,Technology & Engineering / Electronics / Circuits / General,Technology & Engineering / Electronics / General,Technology & Engineering / Electronics / Microelectronics}
+    \endentry
+    \entry{rajElectronicallyTunableFull2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=818c7afb8e3203cc4bf8010ad173631e}{%
+           family={Raj},
+           familyi={R\bibinitperiod},
+           given={Niranjan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4399419aaa976a4ced823b2b891c6fad}{%
+           family={{Sagar}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=9b45e691023c4e8ab5e6ca00ff8f3818}{%
+           family={Ranjan},
+           familyi={R\bibinitperiod},
+           given={Rajeev\bibnamedelima Kumar},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ccb25bce9e81d058222514a9d43e6463}{%
+           family={Priyadarshini},
+           familyi={P\bibinitperiod},
+           given={Bindu},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4045f3f1e88f5a221b88ebfba537db62}{%
+           family={Bizon},
+           familyi={B\bibinitperiod},
+           given={Nicu},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d51029d46b2a7e1906a3af61ebf6e94f}
+      \strng{fullhash}{83e91e0a594d2394cd8bf561e59d1d8d}
+      \strng{fullhashraw}{83e91e0a594d2394cd8bf561e59d1d8d}
+      \strng{bibnamehash}{d51029d46b2a7e1906a3af61ebf6e94f}
+      \strng{authorbibnamehash}{d51029d46b2a7e1906a3af61ebf6e94f}
+      \strng{authornamehash}{d51029d46b2a7e1906a3af61ebf6e94f}
+      \strng{authorfullhash}{83e91e0a594d2394cd8bf561e59d1d8d}
+      \strng{authorfullhashraw}{83e91e0a594d2394cd8bf561e59d1d8d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work presents a voltage mode scheme of a full-wave precision rectifier circuit using an analog building block differential voltage current conveyor transconductance amplifier (DVCCTA) including five NMOS transistors. The proposed design is essentially suited for low voltage and high-frequency input signals. The operation of the proposed rectifier design depends upon the region of operation of NMOS transistors. The output waveform of the presented rectifier design can be made electronically tunable by controlling the bias voltage. The functional correctness and verification of the presented design are performed using 0.25-µm TSMC technology under the supply voltage of ±1.5 V. The absence of a resistor leads to a minimal parasitic effect. To obtain further insight on the robustness of the circuit, a Monte Carlo simulation and corner analysis are also presented. The circuit is verified experimentally by incorporating a breadboard model with the help of commercially available ICs CA3080 (operational transconductance amplifier) and AD844AN (current feedback operational amplifier) and offers remarkable compliance with both theoretical and simulation outcomes. The presented design has been laid out on Cadence virtuoso, which consumes a chip area of 9044 µm2.}
+      \field{day}{25}
+      \field{issn}{2079-9292}
+      \field{journaltitle}{Electronics}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{11}
+      \field{shortjournal}{Electronics}
+      \field{title}{Electronically {{Tunable Full Wave Precision Rectifier Using DVCCTAs}}}
+      \field{urlday}{4}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1262}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/electronics10111262
+      \endverb
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\RWSGTQVS\Raj et al. - 2021 - Electronically Tunable Full Wave Precision Rectifier Using DVCCTAs.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-9292/10/11/1262
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-9292/10/11/1262
+      \endverb
+    \endentry
+    \entry{ShockleyDiodeEquation2025}{inreference}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Shockley diode equation, or the diode law, named after transistor co-inventor William Shockley of Bell Labs, models the exponential current–voltage (I–V) relationship of semiconductor diodes in moderate constant current forward bias or reverse bias: I D = I S ( e V D n V T − 1 ) , \{\textbackslash displaystyle I\_\{\textbackslash text\{D\}\}=I\_\{\textbackslash text\{S\}\}\textbackslash left(e\textasciicircum\{\textbackslash frac \{V\_\{\textbackslash text\{D\}\}\}\{nV\_\{\textbackslash text\{T\}\}\}\}-1\textbackslash right),\} where I D \{\textbackslash displaystyle I\_\{\textbackslash text\{D\}\}\} is the diode current, I S \{\textbackslash displaystyle I\_\{\textbackslash text\{S\}\}\} is the reverse-bias saturation current (or scale current), V D \{\textbackslash displaystyle V\_\{\textbackslash text\{D\}\}\} is the voltage across the diode, V T \{\textbackslash displaystyle V\_\{\textbackslash text\{T\}\}\} is the thermal voltage, and n \{\textbackslash displaystyle n\} is the ideality factor, also known as the quality factor, emission coefficient, or the material constant. The equation is called the Shockley ideal diode equation when the ideality factor n \{\textbackslash displaystyle n\} equals 1, thus n \{\textbackslash displaystyle n\} is sometimes omitted. The ideality factor typically varies from 1 to 2 (though can in some cases be higher), depending on the fabrication process and semiconductor material. The ideality factor was added to account for imperfect junctions observed in real transistors, mainly due to carrier recombination as charge carriers cross the depletion region. The thermal voltage V T \{\textbackslash displaystyle V\_\{\textbackslash text\{T\}\}\} is defined as: V T = k T q , \{\textbackslash displaystyle V\_\{\textbackslash text\{T\}\}=\{\textbackslash frac \{kT\}\{q\}\},\} where k \{\textbackslash displaystyle k\} is the Boltzmann constant, T \{\textbackslash displaystyle T\} is the absolute temperature of the p–n junction, and q \{\textbackslash displaystyle q\} is the elementary charge (the magnitude of an electron's charge). For example, it is approximately 25.852 mV at 300 K (27 °C; 80 °F). The reverse saturation current I S \{\textbackslash displaystyle I\_\{\textbackslash text\{S\}\}\} is not constant for a given device, but varies with temperature; usually more significantly than V T \{\textbackslash displaystyle V\_\{\textbackslash text\{T\}\}\} , so that V D \{\textbackslash displaystyle V\_\{\textbackslash text\{D\}\}\} typically decreases as T \{\textbackslash displaystyle T\} increases. Under reverse bias, the diode equation's exponential term is near 0, so the current is near the somewhat constant − I S \{\textbackslash displaystyle -I\_\{\textbackslash text\{S\}\}\} reverse current value (roughly a picoampere for silicon diodes or a microampere for germanium diodes, although this is obviously a function of size). For moderate forward bias voltages the exponential becomes much larger than 1, since the thermal voltage is very small in comparison. The − 1 \{\textbackslash displaystyle -1\} in the diode equation is then negligible, so the forward diode current will approximate I S e V D n V T . \{\textbackslash displaystyle I\_\{\textbackslash text\{S\}\}e\textasciicircum\{\textbackslash frac \{V\_\{\textbackslash text\{D\}\}\}\{nV\_\{\textbackslash text\{T\}\}\}\}.\} The use of the diode equation in circuit problems is illustrated in the article on diode modeling.}
+      \field{annotation}{Page Version ID: 1266696684}
+      \field{booktitle}{Wikipedia}
+      \field{day}{1}
+      \field{hour}{21}
+      \field{langid}{english}
+      \field{minute}{3}
+      \field{month}{1}
+      \field{second}{24}
+      \field{timezone}{Z}
+      \field{title}{Shockley Diode Equation}
+      \field{urlday}{4}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\ES6E82CA\Shockley_diode_equation.html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Shockley_diode_equation&oldid=1266696684
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Shockley_diode_equation&oldid=1266696684
+      \endverb
+    \endentry
+    \entry{PNJunctionSolidstate}{online}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Read about The P-N Junction (Solid-state Device Theory) in our free Electronics Textbook}
+      \field{langid}{english}
+      \field{title}{The {{P-N Junction}} | {{Solid-state Device Theory}} | {{Electronics Textbook}}}
+      \field{urlday}{4}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\C93YYNCJ\the-p-n-junction.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.allaboutcircuits.com/textbook/semiconductors/chpt-2/the-p-n-junction/
+      \endverb
+      \verb{url}
+      \verb https://www.allaboutcircuits.com/textbook/semiconductors/chpt-2/the-p-n-junction/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
