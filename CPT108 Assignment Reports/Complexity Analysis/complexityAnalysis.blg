@@ -1,0 +1,18 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'complexityAnalysis.blg'
+[92] biber-MSWIN64:340> INFO - === 
+[121] Biber.pm:420> INFO - Reading 'complexityAnalysis.bcf'
+[207] Biber.pm:994> INFO - Found 6 citekeys in bib section 0
+[220] Biber.pm:4463> INFO - Processing section 0
+[231] Biber.pm:4654> INFO - Looking for bibtex file 'complexityAnalysis.bib' for section 0
+[287] bibtex.pm:1713> INFO - LaTeX decoding ...
+[471] bibtex.pm:1519> INFO - Found BibTeX data source 'complexityAnalysis.bib'
+[558] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[558] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[558] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[558] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[574] bbl.pm:676> INFO - Writing 'complexityAnalysis.bbl' with encoding 'UTF-8'
+[577] bbl.pm:779> INFO - Output to complexityAnalysis.bbl
+[577] Biber.pm:131> WARN - ISBN '978-1-4419-5905-8 978-1-4419-5906-5' in entry 'vadhanComputationalComplexity2011' is invalid - run biber with '--validate_datamodel' for details.
+[578] Biber.pm:131> WARN - ISBN '978-1-84996-720-4 978-1-84800-069-8' in entry 'skienaAlgorithmDesignManual2010' is invalid - run biber with '--validate_datamodel' for details.
+[578] Biber.pm:133> INFO - WARNINGS: 2

@@ -1,0 +1,265 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{aroraComputationalComplexityModern2016}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=8e08b59145b9531815169c7ed0a0b055}{%
+           family={Arora},
+           familyi={A\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ef4505bdcbc58ae15e11f8bc6c51af7e}{%
+           family={Barak},
+           familyi={B\bibinitperiod},
+           given={Boaz},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{af2b04a0bcd76cc1a4cd54f6e4b95158}
+      \strng{fullhash}{af2b04a0bcd76cc1a4cd54f6e4b95158}
+      \strng{fullhashraw}{af2b04a0bcd76cc1a4cd54f6e4b95158}
+      \strng{bibnamehash}{af2b04a0bcd76cc1a4cd54f6e4b95158}
+      \strng{authorbibnamehash}{af2b04a0bcd76cc1a4cd54f6e4b95158}
+      \strng{authornamehash}{af2b04a0bcd76cc1a4cd54f6e4b95158}
+      \strng{authorfullhash}{af2b04a0bcd76cc1a4cd54f6e4b95158}
+      \strng{authorfullhashraw}{af2b04a0bcd76cc1a4cd54f6e4b95158}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{4th printing 2016}
+      \field{isbn}{978-0-521-42426-4}
+      \field{langid}{english}
+      \field{pagetotal}{579}
+      \field{shorttitle}{Computational Complexity}
+      \field{title}{Computational {{Complexity}}: {{A Modern Approach}}}
+      \field{year}{2016}
+      \field{dateera}{ce}
+    \endentry
+    \entry{cormenIntroductionAlgorithms2022}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=835b8c52757d98c15859b416316d9820}{%
+           family={Cormen},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=8f75345cdab4e4b9beb14eb0b984220c}{%
+           family={Leiserson},
+           familyi={L\bibinitperiod},
+           given={Charles\bibnamedelima Eric},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3a964821f97ee17f8bb285bc61c52899}{%
+           family={Rivest},
+           familyi={R\bibinitperiod},
+           given={Ronald\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=bc78426660400760f77758aec45e71a8}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Clifford},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachusett}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{c251cdfd036d9474565c517e73c19c5d}
+      \strng{fullhash}{5384d0f2cbc3c8e07ee3508224a6f619}
+      \strng{fullhashraw}{5384d0f2cbc3c8e07ee3508224a6f619}
+      \strng{bibnamehash}{c251cdfd036d9474565c517e73c19c5d}
+      \strng{authorbibnamehash}{c251cdfd036d9474565c517e73c19c5d}
+      \strng{authornamehash}{c251cdfd036d9474565c517e73c19c5d}
+      \strng{authorfullhash}{5384d0f2cbc3c8e07ee3508224a6f619}
+      \strng{authorfullhashraw}{5384d0f2cbc3c8e07ee3508224a6f619}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"The leading introductory textbook and reference on algorithms"--}
+      \field{edition}{Fourth edition}
+      \field{isbn}{978-0-262-04630-5}
+      \field{pagetotal}{1291}
+      \field{title}{Introduction to {{Algorithms}}}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \keyw{Computer algorithms,Computer programming}
+    \endentry
+    \entry{karunanithi2014survey}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=902aed1e7f7d43100dd4d284f82a167a}{%
+           family={Karunanithi},
+           familyi={K\bibinitperiod},
+           given={Ashok\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{8fd9069148fe938a05f4c437f8bf78f1}
+      \strng{fullhash}{8fd9069148fe938a05f4c437f8bf78f1}
+      \strng{fullhashraw}{8fd9069148fe938a05f4c437f8bf78f1}
+      \strng{bibnamehash}{8fd9069148fe938a05f4c437f8bf78f1}
+      \strng{authorbibnamehash}{8fd9069148fe938a05f4c437f8bf78f1}
+      \strng{authornamehash}{8fd9069148fe938a05f4c437f8bf78f1}
+      \strng{authorfullhash}{8fd9069148fe938a05f4c437f8bf78f1}
+      \strng{authorfullhashraw}{8fd9069148fe938a05f4c437f8bf78f1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Department of Computing Science, Umea University}
+      \field{title}{A Survey, Discussion and Comparison of Sorting Algorithms}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{skienaAlgorithmDesignManual2010}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=6469758c26f38311045f7d517ca3f157}{%
+           family={Skiena},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6469758c26f38311045f7d517ca3f157}
+      \strng{fullhash}{6469758c26f38311045f7d517ca3f157}
+      \strng{fullhashraw}{6469758c26f38311045f7d517ca3f157}
+      \strng{bibnamehash}{6469758c26f38311045f7d517ca3f157}
+      \strng{authorbibnamehash}{6469758c26f38311045f7d517ca3f157}
+      \strng{authornamehash}{6469758c26f38311045f7d517ca3f157}
+      \strng{authorfullhash}{6469758c26f38311045f7d517ca3f157}
+      \strng{authorfullhashraw}{6469758c26f38311045f7d517ca3f157}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2. ed., [Nachdr.]}
+      \field{isbn}{978-1-84996-720-4 978-1-84800-069-8}
+      \field{langid}{english}
+      \field{pagetotal}{730}
+      \field{title}{The {{Algorithm Design Manual}}}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\8KLLU6GE\Skiena - 2010 - The algorithm design manual.pdf
+      \endverb
+    \endentry
+    \entry{ParallelCollector}{online}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{The {{Parallel Collector}}}
+      \field{urlday}{15}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\KF663SUK\parallel.html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/parallel.html#CHDCFBIF
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/parallel.html#CHDCFBIF
+      \endverb
+    \endentry
+    \entry{vadhanComputationalComplexity2011}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=c915d3380da8c4288e9634bbee5ba983}{%
+           family={Vadhan},
+           familyi={V\bibinitperiod},
+           given={Salil},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=05ebbece8c1139a78884d293c6526057}{%
+           family={Van\bibnamedelima Tilborg},
+           familyi={V\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Henk\bibnamedelimb C.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f21aa520ad69374e7b6d40b5c0891da7}{%
+           family={Jajodia},
+           familyi={J\bibinitperiod},
+           given={Sushil},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{c915d3380da8c4288e9634bbee5ba983}
+      \strng{fullhash}{c915d3380da8c4288e9634bbee5ba983}
+      \strng{fullhashraw}{c915d3380da8c4288e9634bbee5ba983}
+      \strng{bibnamehash}{c915d3380da8c4288e9634bbee5ba983}
+      \strng{authorbibnamehash}{c915d3380da8c4288e9634bbee5ba983}
+      \strng{authornamehash}{c915d3380da8c4288e9634bbee5ba983}
+      \strng{authorfullhash}{c915d3380da8c4288e9634bbee5ba983}
+      \strng{authorfullhashraw}{c915d3380da8c4288e9634bbee5ba983}
+      \strng{editorbibnamehash}{05500437ddb074922e3e19ab8e7c82e3}
+      \strng{editornamehash}{05500437ddb074922e3e19ab8e7c82e3}
+      \strng{editorfullhash}{05500437ddb074922e3e19ab8e7c82e3}
+      \strng{editorfullhashraw}{05500437ddb074922e3e19ab8e7c82e3}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of {{Cryptography}} and {{Security}}}
+      \field{isbn}{978-1-4419-5905-8 978-1-4419-5906-5}
+      \field{langid}{english}
+      \field{title}{Computational {{Complexity}}}
+      \field{urlday}{15}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{235\bibrangedash 240}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/978-1-4419-5906-5_442
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-1-4419-5906-5_442
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-1-4419-5906-5_442
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

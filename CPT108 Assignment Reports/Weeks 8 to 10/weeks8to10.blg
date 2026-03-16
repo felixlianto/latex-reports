@@ -1,0 +1,15 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'weeks8to10.blg'
+[99] biber-MSWIN64:340> INFO - === 
+[132] Biber.pm:420> INFO - Reading 'weeks8to10.bcf'
+[234] Biber.pm:994> INFO - Found 5 citekeys in bib section 0
+[248] Biber.pm:4463> INFO - Processing section 0
+[260] Biber.pm:4654> INFO - Looking for bibtex file 'weeks8to10.bib' for section 0
+[319] bibtex.pm:1713> INFO - LaTeX decoding ...
+[600] bibtex.pm:1519> INFO - Found BibTeX data source 'weeks8to10.bib'
+[658] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[658] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[658] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[658] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[666] bbl.pm:676> INFO - Writing 'weeks8to10.bbl' with encoding 'UTF-8'
+[668] bbl.pm:779> INFO - Output to weeks8to10.bbl

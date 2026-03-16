@@ -1,0 +1,60 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{hromkovicTheoreticalComputerScience2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=0362c33ea62acf67ca18f7d2f72d4458}{%
+           family={Hromkovič},
+           familyi={H\bibinitperiod},
+           given={Juraj},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{0362c33ea62acf67ca18f7d2f72d4458}
+      \strng{fullhash}{0362c33ea62acf67ca18f7d2f72d4458}
+      \strng{fullhashraw}{0362c33ea62acf67ca18f7d2f72d4458}
+      \strng{bibnamehash}{0362c33ea62acf67ca18f7d2f72d4458}
+      \strng{authorbibnamehash}{0362c33ea62acf67ca18f7d2f72d4458}
+      \strng{authornamehash}{0362c33ea62acf67ca18f7d2f72d4458}
+      \strng{authorfullhash}{0362c33ea62acf67ca18f7d2f72d4458}
+      \strng{authorfullhashraw}{0362c33ea62acf67ca18f7d2f72d4458}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This textbook not only provides an elegant route through the theoretical fundamentals of computer science, it also shows that theoretical computer science is a fascinating discipline, full of spectacular contributions and miracles, depth of research, and yet directly applicable. It presents the development of the computer scientist's way of thinking: detailing such classic areas as computability and automata theory as well as such fundamental concepts as approximation and randomization in algorithmics. Coverage also explains the basic ideas of cryptography and interconnection network design.}
+      \field{day}{18}
+      \field{isbn}{978-3-540-14015-3}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{pagetotal}{336}
+      \field{shorttitle}{Theoretical {{Computer Science}}}
+      \field{title}{Theoretical {{Computer Science}}: {{Introduction}} to {{Automata}}, {{Computability}}, {{Complexity}}, {{Algorithmics}}, {{Randomization}}, {{Communication}}, and {{Cryptography}}}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \keyw{Computers / Computer Science,Computers / Data Processing,Computers / Information Technology,Computers / Information Theory,Computers / Machine Theory,Computers / Programming / Algorithms,Computers / User Interfaces,Language Arts & Disciplines / Library & Information Science / General,Mathematics / Discrete Mathematics}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

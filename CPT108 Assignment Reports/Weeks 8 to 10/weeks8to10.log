@@ -1,0 +1,1463 @@
+This is LuaHBTeX, Version 1.21.0 (MiKTeX 25.3) (format=lualatex 2025.5.2)  3 MAY 2025 00:56
+ system commands enabled.
+**weeks8to10.tex
+(./weeks8to10.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/Users/asus/AppData/Local/MiKTeX/
+luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/fo
+ntloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/asus/AppData/Local/MiKTeX/
+luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/asus/AppData/
+Local/Programs/MiKTeX/tex/latex/base/report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/asus/AppData/Local/Mi
+KTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen140
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\caption@tempdima=\dimen141
+\captionmargin=\dimen142
+\caption@leftmargin=\dimen143
+\caption@rightmargin=\dimen144
+\caption@width=\dimen145
+\caption@indent=\dimen146
+\caption@parindent=\dimen147
+\caption@hangindent=\dimen148
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count269
+\c@continuedfloat=\count270
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count271
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count272
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen149
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count278
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks19
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks20
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks21
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks28
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks29
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count286
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count287
+\c@listtotal=\count288
+\c@listcount=\count289
+\c@liststart=\count290
+\c@liststop=\count291
+\c@citecount=\count292
+\c@citetotal=\count293
+\c@multicitecount=\count294
+\c@multicitetotal=\count295
+\c@instcount=\count296
+\c@maxnames=\count297
+\c@minnames=\count298
+\c@maxitems=\count299
+\c@minitems=\count300
+\c@citecounter=\count301
+\c@maxcitecounter=\count302
+\c@savedcitecounter=\count303
+\c@uniquelist=\count304
+\c@uniquename=\count305
+\c@refsection=\count306
+\c@refsegment=\count307
+\c@maxextratitle=\count308
+\c@maxextratitleyear=\count309
+\c@maxextraname=\count310
+\c@maxextradate=\count311
+\c@maxextraalpha=\count312
+\c@abbrvpenalty=\count313
+\c@highnamepenalty=\count314
+\c@lownamepenalty=\count315
+\c@maxparens=\count316
+\c@parenlevel=\count317
+\blx@tempcnta=\count318
+\blx@tempcntb=\count319
+\blx@tempcntc=\count320
+\c@blx@maxsection=\count321
+\blx@maxsegment@0=\count322
+\blx@notetype=\count323
+\blx@parenlevel@text=\count324
+\blx@parenlevel@foot=\count325
+\blx@sectionciteorder@0=\count326
+\blx@sectionciteorderinternal@0=\count327
+\blx@entrysetcounter=\count328
+\blx@biblioinstance=\count329
+\labelnumberwidth=\skip57
+\labelalphawidth=\skip58
+\biblabelsep=\skip59
+\bibitemsep=\skip60
+\bibnamesep=\skip61
+\bibinitsep=\skip62
+\bibparsep=\skip63
+\bibhang=\skip64
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language2
+\c@mincomprange=\count330
+\c@maxcomprange=\count331
+\c@mincompwidth=\count332
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count333
+\c@savedafterword=\count334
+\c@annotator=\count335
+\c@savedannotator=\count336
+\c@author=\count337
+\c@savedauthor=\count338
+\c@bookauthor=\count339
+\c@savedbookauthor=\count340
+\c@commentator=\count341
+\c@savedcommentator=\count342
+\c@editor=\count343
+\c@savededitor=\count344
+\c@editora=\count345
+\c@savededitora=\count346
+\c@editorb=\count347
+\c@savededitorb=\count348
+\c@editorc=\count349
+\c@savededitorc=\count350
+\c@foreword=\count351
+\c@savedforeword=\count352
+\c@holder=\count353
+\c@savedholder=\count354
+\c@introduction=\count355
+\c@savedintroduction=\count356
+\c@namea=\count357
+\c@savednamea=\count358
+\c@nameb=\count359
+\c@savednameb=\count360
+\c@namec=\count361
+\c@savednamec=\count362
+\c@translator=\count363
+\c@savedtranslator=\count364
+\c@shortauthor=\count365
+\c@savedshortauthor=\count366
+\c@shorteditor=\count367
+\c@savedshorteditor=\count368
+\c@labelname=\count369
+\c@savedlabelname=\count370
+\c@institution=\count371
+\c@savedinstitution=\count372
+\c@lista=\count373
+\c@savedlista=\count374
+\c@listb=\count375
+\c@savedlistb=\count376
+\c@listc=\count377
+\c@savedlistc=\count378
+\c@listd=\count379
+\c@savedlistd=\count380
+\c@liste=\count381
+\c@savedliste=\count382
+\c@listf=\count383
+\c@savedlistf=\count384
+\c@location=\count385
+\c@savedlocation=\count386
+\c@organization=\count387
+\c@savedorganization=\count388
+\c@origlocation=\count389
+\c@savedoriglocation=\count390
+\c@origpublisher=\count391
+\c@savedorigpublisher=\count392
+\c@publisher=\count393
+\c@savedpublisher=\count394
+\c@language=\count395
+\c@savedlanguage=\count396
+\c@origlanguage=\count397
+\c@savedoriglanguage=\count398
+\c@pageref=\count399
+\c@savedpageref=\count400
+\shorthandwidth=\skip65
+\shortjournalwidth=\skip66
+\shortserieswidth=\skip67
+\shorttitlewidth=\skip68
+\shortauthorwidth=\skip69
+\shorteditorwidth=\skip70
+\locallabelnumberwidth=\skip71
+\locallabelalphawidth=\skip72
+\localshorthandwidth=\skip73
+\localshortjournalwidth=\skip74
+\localshortserieswidth=\skip75
+\localshorttitlewidth=\skip76
+\localshortauthorwidth=\skip77
+\localshorteditorwidth=\skip78
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-unicode.def
+)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count401
+\c@textcitetotal=\count402
+\c@textcitemaxnames=\count403
+\c@biburlbigbreakpenalty=\count404
+\c@biburlbreakpenalty=\count405
+\c@biburlnumpenalty=\count406
+\c@biburlucpenalty=\count407
+\c@biburllcpenalty=\count408
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count409
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/standard.bb
+x
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count410
+\c@bbx:relatedtotal=\count411
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-luat
+ex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count412
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box54
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2025-01-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-case-expl3.
+sty
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xparse
+.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.sty
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.revi
+sion.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tikz.s
+ty
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil-
+common.tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil-
+latex.def
+\pgfutil@abb=\box55
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.c
+ode.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.s
+ty
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.s
+ty
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsys
+.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys.
+code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeysl
+ibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count413
+\c@pgf@countb=\count414
+\c@pgf@countc=\count415
+\c@pgf@countd=\count416
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count417
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.cf
+g
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsys
+-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsys
+-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsys
+softpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count418
+\pgfsyssoftpath@bigbuffer@items=\count419
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsys
+protocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code.
+tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.c
+ode.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparser
+.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count420
+\pgfmath@box=\box56
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfuncti
+ons.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfuncti
+ons.basic.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfuncti
+ons.trigonometric.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfuncti
+ons.random.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfuncti
+ons.comparison.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfuncti
+ons.base.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfuncti
+ons.round.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfuncti
+ons.misc.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfuncti
+ons.integerarithmetics.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.c
+ode.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat.
+code.tex
+\c@pgfmathroundto@lastzeros=\count421
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.t
+ex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+points.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+pathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+pathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+scopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count422
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+graphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen191
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+transformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+quick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+objects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+pathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+arrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen195
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+shade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count423
+\pgf@shadingcount=\count424
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+image.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+external.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box60
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+layers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+transparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+patterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore
+rdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodules
+hapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box61
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodulep
+lot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfcom
+p-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfcom
+p-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.sty
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.st
+y
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys.
+code.tex))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code.
+tex))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffor.c
+ode.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen199
+\pgffor@skip=\dimen256
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibra
+ryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count425
+\pgfplotmarksize=\dimen257
+)
+\tikz@lastx=\dimen258
+\tikz@lasty=\dimen259
+\tikz@lastxsaved=\dimen260
+\tikz@lastysaved=\dimen261
+\tikz@lastmovetox=\dimen262
+\tikz@lastmovetoy=\dimen263
+\tikzleveldistance=\dimen264
+\tikzsiblingdistance=\dimen265
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count426
+\tikznumberofchildren=\count427
+\tikznumberofcurrentchild=\count428
+\tikz@fig@count=\count429
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodulem
+atrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count430
+\pgfmatrixcurrentcolumn=\count431
+\pgf@matrix@numberofcolumns=\count432
+)
+\tikz@expandcount=\count433
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.code
+.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscore.
+code.tex
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
+\pgfplots@luabackend@table=\catcodetable14
+\t@pgfplots@toka=\toks42
+\t@pgfplots@tokb=\toks43
+\t@pgfplots@tokc=\toks44
+\pgfplots@tmpa=\dimen266
+\c@pgfplots@coordindex=\count434
+\c@pgfplots@scanlineindex=\count435
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfplotss
+ysgeneric.code.tex))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgfplots
+library.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompati
+b/pgfplotsoldpgfsupp_loader.code.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibra
+ryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompati
+b/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/luamath/
+pgflibraryluamath.code.tex)
+Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.1
+0 is up-to-date
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplots
+util.code.tex
+Package pgfplots info on input line 82: Found new luatex: initializing lua comm
+ands instead of write18 (shell-escape)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructure
+/pgfplotsliststructure.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructure
+/pgfplotsliststructureext.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructure
+/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count436
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructure
+/pgfplotsmatrix.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtable/pgfp
+lotstableshared.code.tex
+\c@pgfplotstable@counta=\count437
+\t@pgfplotstable@a=\toks48
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructure
+/pgfplotsdeque.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplots
+binary.code.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplots
+binary.data.code.tex))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplots
+util.verb.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgflibra
+rypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count438
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgflibrar
+ypgfplots.surfshading.pgfsys-luatex.def)))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplots
+colormap.code.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplots
+color.code.tex))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsstack
+edplots.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsploth
+andlers.code.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmeshp
+lothandler.code.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmeshp
+lotimage.code.tex)))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.scal
+ing.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscoord
+processing.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.erro
+rbars.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.mark
+ers.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsticks
+.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.path
+s.code.tex)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/tikzlibrarydecorations.code.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmoduled
+ecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen267
+\pgfdecoratedremainingdistance=\dimen268
+\pgfdecoratedinputsegmentcompleteddistance=\dimen269
+\pgfdecoratedinputsegmentremainingdistance=\dimen270
+\pgf@decorate@distancetomove=\dimen271
+\pgf@decorate@repeatstate=\count439
+\pgfdecorationsegmentamplitude=\dimen272
+\pgfdecorationsegmentlength=\dimen273
+)
+\tikz@lib@dec@box=\box66
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorati
+ons/pgflibrarydecorations.pathmorphing.code.tex))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorati
+ons/pgflibrarydecorations.pathreplacing.code.tex))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/tikzlibr
+arypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count440
+\pgfplots@xmin@reg=\dimen274
+\pgfplots@xmax@reg=\dimen275
+\pgfplots@ymin@reg=\dimen276
+\pgfplots@ymax@reg=\dimen277
+\pgfplots@zmin@reg=\dimen278
+\pgfplots@zmax@reg=\dimen279
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibra
+ryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/minted/minted2.sty
+Package: minted2 2024/05/09 v2.9 Yet another Pygments shim for LaTeX
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyv
+rb
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count441
+\FV@InFile=\read4
+\FV@TabBox=\box67
+\c@FancyVerbLine=\count442
+\FV@StepNumber=\count443
+\FV@OutFile=\write5
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/lineno/lineno.sty
+Package: lineno 2025/01/29 line numbers on paragraphs v5.4
+\linenopenalty=\count444
+\output=\toks49
+\linenoprevgraf=\count445
+\linenumbersep=\dimen280
+\linenumberwidth=\dimen281
+\c@linenumber=\count446
+\c@pagewiselinenumber=\count447
+\c@LN@truepage=\count448
+\c@internallinenumber=\count449
+\c@internallinenumbers=\count450
+\quotelinenumbersep=\dimen282
+\bframerule=\dimen283
+\bframesep=\dimen284
+\bframebox=\box68
+\@LN@amsmath@ams@eqpen=\count451
+LaTeX Info: Redefining \\ on input line 3187.
+)
+\c@FancyVerbWriteLine=\count452
+\c@FancyVerbBufferLine=\count453
+\c@FV@TrueTabGroupLevel=\count454
+\c@FV@TrueTabCounter=\count455
+\FV@TabBox@Group=\box69
+\FV@bgcolorstructbox=\box70
+\FV@TmpLength=\skip79
+\c@FV@HighlightLinesStart=\count456
+\c@FV@HighlightLinesStop=\count457
+\FV@LoopCount=\count458
+\FV@NCharsBox=\box71
+\FV@BreakIndent=\dimen285
+\FV@BreakIndentNChars=\count459
+\FV@BreakSymbolSepLeft=\dimen286
+\FV@BreakSymbolSepLeftNChars=\count460
+\FV@BreakSymbolSepRight=\dimen287
+\FV@BreakSymbolSepRightNChars=\count461
+\FV@BreakSymbolIndentLeft=\dimen288
+\FV@BreakSymbolIndentLeftNChars=\count462
+\FV@BreakSymbolIndentRight=\dimen289
+\FV@BreakSymbolIndentRightNChars=\count463
+\c@FancyVerbLineBreakLast=\count464
+\FV@LineBox=\box72
+\FV@LineIndentBox=\box73
+\c@FV@BreakBufferDepth=\count465
+\FV@LineWidth=\dimen290
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/ifplatform/ifplatform.st
+y
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/catchfile/catchfile.st
+y
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)) (C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/xstring/xstring.tex
+\xs_counta=\count466
+\xs_countb=\count467
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip80
+\fb@frw=\dimen291
+\fb@frh=\dimen292
+\FrameRule=\dimen293
+\FrameSep=\dimen294
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count468
+\float@exts=\toks50
+\float@box=\box74
+\@float@everytoks=\toks51
+\@floatcapt=\box75
+)
+\minted@appexistsfile=\read5
+\minted@bgbox=\box76
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count469
+\c@minted@pygmentizecounter=\count470
+\@float@every@listing=\toks52
+\c@listing=\count471
+)
+runsystem(if not exist _minted-weeks8to10 mkdir _minted-weeks8to10)...executed.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/algorithm2e/algorithm2e.
+sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count472
+\algocf@hangindent=\skip81
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count473
+) (C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip82
+\skiplinenumber=\skip83
+\skiprule=\skip84
+\skiphlne=\skip85
+\skiptext=\skip86
+\skiplength=\skip87
+\algomargin=\skip88
+\skipalgocfslide=\skip89
+\algowidth=\dimen295
+\inoutsize=\dimen296
+\inoutindent=\dimen297
+\interspacetitleruled=\dimen298
+\interspacealgoruled=\dimen299
+\interspacetitleboxruled=\dimen300
+\algocf@ruledwidth=\skip90
+\algocf@inoutbox=\box77
+\algocf@inputbox=\box78
+\AlCapSkip=\skip91
+\AlCapHSkip=\skip92
+\algoskipindent=\skip93
+\algocf@nlbox=\box79
+\algocf@hangingbox=\box80
+\algocf@untilbox=\box81
+\algocf@skipuntil=\skip94
+\algocf@capbox=\box82
+\algocf@lcaptionbox=\skip95
+\algoheightruledefault=\skip96
+\algoheightrule=\skip97
+\algotitleheightruledefault=\skip98
+\algotitleheightrule=\skip99
+\c@algocfline=\count474
+\c@algocfproc=\count475
+\c@algocf=\count476
+\algocf@algoframe=\box83
+\algocf@algobox=\box84
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty
+\lst@mode=\count477
+\lst@gtempboxa=\box85
+\lst@token=\toks53
+\lst@length=\count478
+\lst@currlwidth=\dimen301
+\lst@column=\count479
+\lst@pos=\count480
+\lst@lostspace=\dimen302
+\lst@width=\dimen303
+\lst@newlines=\count481
+\lst@lineno=\count482
+\lst@maxwidth=\dimen304
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count483
+\lst@skipnumbers=\count484
+\lst@framebox=\box86
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip100
+\enit@outerparindent=\dimen305
+\enit@toks=\toks54
+\enit@inbox=\box87
+\enit@count@id=\count485
+\enitdp@description=\count486
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shapes/p
+gflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box88
+\pgfnodeparttwobox=\box89
+\pgfnodepartthreebox=\box90
+\pgfnodepartfourbox=\box91
+\pgfnodeparttwentybox=\box92
+\pgfnodepartnineteenbox=\box93
+\pgfnodeparteighteenbox=\box94
+\pgfnodepartseventeenbox=\box95
+\pgfnodepartsixteenbox=\box96
+\pgfnodepartfifteenbox=\box97
+\pgfnodepartfourteenbox=\box98
+\pgfnodepartthirteenbox=\box99
+\pgfnodeparttwelvebox=\box100
+\pgfnodepartelevenbox=\box101
+\pgfnodeparttenbox=\box102
+\pgfnodepartninebox=\box103
+\pgfnodeparteightbox=\box104
+\pgfnodepartsevenbox=\box105
+\pgfnodepartsixbox=\box106
+\pgfnodepartfivebox=\box107
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/graphdrawing/tex/t
+ikzlibrarygraphdrawing.code.tex
+File: tikzlibrarygraphdrawing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/graphdrawing/tex/p
+gflibrarygraphdrawing.code.tex
+File: pgflibrarygraphdrawing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@gd@parameter@stack@height=\count487
+\pgf@gd@node@box=\box108
+\pgf@gd@edge@box=\box109
+\pgf@gd@prekind@box=\box110
+\pgf@gd@postkind@box=\box111
+))
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\tikz@lib@auto@number=\count488
+\tikz@qnode@count=\count489
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz
+/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+\c@scenario=\count490
+\@quotelevel=\count491
+\@quotereset=\count492
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > wee
+ks8to10.aex <nul: /p x=^%~$PATH:i>> weeks8to10.aex)...failed. 
+runsystem(del weeks8to10.aex)...executed.
+ (./weeks8to10.aux)
+\openout1 = weeks8to10.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout3 = weeks8to10.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'weeks8to10.bbl' found.
+ (./weeks8to10.bbl)
+Package biblatex Info: Reference section=0 on input line 35.
+Package biblatex Info: Reference segment=0 on input line 35.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count493
+\scratchdimen=\dimen306
+\scratchbox=\box112
+\nofMPsegments=\count494
+\nofMParguments=\count495
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count496
+\MPscratchDim=\dimen307
+\MPnumerator=\count497
+\makeMPintoPDFobject=\count498
+\everyMPtoPDFconversion=\toks56
+)
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 35.
+
+\c@lstlisting=\count499
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+
+
+(C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+[1
+
+{C:/Users/asus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+[1]
+
+[2]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+\openout5 = weeks8to10.pyg
+(./_minted-weeks8to10/default.pygstyle)
+(./_minted-weeks8to10/2FC0A473F8D2FF80C8551ADEA9836EAD54D22F54C9867776CEA684AB5
+AB9DCFE.pygtex
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 4.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+\openout5 = weeks8to10.pyg
+runsystem(pygmentize -l "cpp" -f latex -P commandprefix=PYG -F tokenmerge -P str
+ipnl="False" -o _minted-weeks8to10/6193F5F67808AAA857504FC103BC251E54D22F54C9867
+776CEA684AB5AB9DCFE.pygtex weeks8to10.pyg)...executed.
+
+(./_minted-weeks8to10/6193F5F67808AAA857504FC103BC251E54D22F54C9867776CEA684AB5
+AB9DCFE.pygtex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[3]
+\openout5 = weeks8to10.pyg
+
+(./_minted-weeks8to10/0A7965AB28927EBD71580E4F76B7475EA6B999B9E4C32140E7E748378
+47C335A.pygtex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[4]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[5]
+
+[6]
+\openout5 = weeks8to10.pyg
+
+(./_minted-weeks8to10/E9A0BAA3FAF5D2351ACAF3DACC3A429054D22F54C9867776CEA684AB5
+AB9DCFE.pygtex)
+
+[7]
+\openout5 = weeks8to10.pyg
+
+(./_minted-weeks8to10/BDFED8E3AFB4B5B315CFF87609930BEA54D22F54C9867776CEA684AB5
+AB9DCFE.pygtex)
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+Overfull \hbox (5.77768pt too wide) in paragraph at lines 692--692
+[]\TU/lmr/m/it/10 Good-ness of Fit\TU/lmr/m/n/10 . In: \TU/lmr/m/it/10 Wikipedia
+\TU/lmr/m/n/10 . Sept. 20, 2024. \TU/lmr/m/sc/10 url\TU/lmr/m/n/10 : $\TU/lmtt/
+m/n/10 https : / / en . wikipedia .
+ []
+
+
+Overfull \hbox (7.93877pt too wide) in paragraph at lines 692--692
+\TU/lmr/m/n/10 Liverpool Uni-ver-sity. 7 pp. \TU/lmr/m/sc/10 url\TU/lmr/m/n/10 
+: $\TU/lmtt/m/n/10 https : / / core . xjtlu . edu . cn / pluginfile .
+ []
+
+runsystem(del _minted-weeks8to10\41F7D6720A2B19DBA89DA845A33E373B54D22F54C986777
+6CEA684AB5AB9DCFE.pygtex)...executed.
+
+
+[14
+
+] (./weeks8to10.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+runsystem(del weeks8to10.pyg)...executed.
+Package logreq Info: Writing requests to 'weeks8to10.run.xml'.
+
+\openout1 = weeks8to10.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 43123 strings out of 475506
+ 195450,2373549 words of node,token memory allocated
+ 672 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 10 attribute, 84 glue_spec
+, 10 attribute_list, 2 write nodes
+   avail lists: 1:14,2:21550,3:6728,4:1108,5:541,6:132,7:13109,8:118,9:2969,10:1
+5,11:329
+ 65149 multiletter control sequences out of 65536+600000
+ 70 fonts using 5429807 bytes
+ 99i,20n,100p,6787b,2024s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/asus/appdata/local/programs/miktex/fonts/opentype/public/lm/lmromancap
+s10-regular.otf><c:/users/asus/appdata/local/programs/miktex/fonts/opentype/publ
+ic/lm/lmroman9-bold.otf><c:/users/asus/appdata/local/programs/miktex/fonts/opent
+ype/public/lm/lmmono10-regular.otf><c:/users/asus/appdata/local/programs/miktex/
+fonts/opentype/public/lm/lmmono9-regular.otf><c:/users/asus/appdata/local/progra
+ms/miktex/fonts/opentype/public/lm/lmmonolt10-bold.otf><c:/users/asus/appdata/lo
+cal/programs/miktex/fonts/opentype/public/lm/lmmono10-italic.otf><c:/users/asus/
+appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman9-regular.otf><c:/
+users/asus/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman5-regul
+ar.otf><c:/users/asus/appdata/local/programs/miktex/fonts/opentype/public/lm/lmr
+oman7-regular.otf><c:/users/asus/appdata/local/programs/miktex/fonts/opentype/pu
+blic/lm/lmroman10-italic.otf><c:/users/asus/appdata/local/programs/miktex/fonts/
+opentype/public/lm/lmroman10-bold.otf><c:/users/asus/appdata/local/programs/mikt
+ex/fonts/opentype/public/lm/lmroman10-regular.otf><c:/users/asus/appdata/local/p
+rograms/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><c:/users/asus/app
+data/local/programs/miktex/fonts/opentype/public/lm/lmroman17-regular.otf><c:/us
+ers/asus/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.o
+tf><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/asus/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/asus/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/asus/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+Output written on weeks8to10.pdf (15 pages, 211659 bytes).
+
+PDF statistics: 194 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+

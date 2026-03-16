@@ -1,0 +1,692 @@
+% !TeX document-id = {959d8425-ddd9-4219-b814-8bdc7cfcb838}
+% !TeX TXS-program:compile = txs:///lualatex/[--shell-escape]
+\documentclass{report}
+
+\renewcommand{\thesection}{\arabic{section}}
+\usepackage[]{indentfirst}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[backend=biber, style=numeric]{biblatex}
+
+\usepackage{pgfplots}
+\usepackage{minted2}
+\usepackage[ruled]{algorithm2e}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+
+\addbibresource{weeks8to10.bib}
+\usepackage{tikz}
+\usetikzlibrary{shapes.multipart, positioning, graphdrawing, graphs, matrix, calc}
+\usegdlibrary{trees}
+
+\newtheorem{scenario}{Scenario}
+\setminted{
+	fontsize=\small,
+	bgcolor=gray!10,
+	linenos,
+	frame=lines,
+	breaklines=true,
+	tabsize=3,
+}
+
+\begin{document}
+	\title{\textbf{CPT108 Assignment 3:} \\ Weeks 8 to 10}
+	\author{Felix Lianto (2362727) \\
+		[1cm]{Instructor: Ho Lam}}
+	\maketitle
+
+\section*{Problem 1}
+This problem asks us to determine which abstract data structure (ADT) would suit each scenario the best, among these 4 ADTs: linked list, stack, queue, and map.
+\begin{scenario}[\autocite{lamAssignment3Weeks}]
+	You are writing a portion of a program to manage the NFL draft. In the draft
+	teams rotate through 7 rounds of picking in which the team with the worst
+	record for the previous year picks first, followed by the second and so on
+	until the team that won the super bowl picks last. The order of picking is
+	the same in each round. Which ADT would you choose to manage the order
+	of the teams as they rotate through their turn each round?
+\end{scenario}
+Based on this description, we know that there is an ordering to the teams, from worst to best, and that the original order will come around again, as there are 7 rounds of drafting. Therefore, a \textbf{queue} would be the best data structure for this, as it can simulate drafting by removing the first (worst) team and pushing it at the end after picking is finished.
+
+\begin{scenario}[\autocite{lamAssignment3Weeks}]
+	You are writing a program to manage the arrangement of songs at a music
+	festival. Which ADT would you choose to store the order of songs as you
+	build out the show? The process of designing the show will be iterative and
+	you will need the ability to move, add and remove songs before you get to
+	your final design.
+\end{scenario}
+From this, we can tell that the order of the songs are sequential (one song is played before the next), therefore we need to have control over every song in the arrangement. This indicates that the \textbf{linked list} data structure is best, as it is traditionally traversed from the head (which, in this case, is the first song) it can handle adding and removing elements (songs) from anywhere within the list.
+
+\begin{scenario}[\autocite{lamAssignment3Weeks}]
+	You are writing a program to manage unread emails in an inbox. When a
+	new email arrives, it should appear at the very top of the inbox and as the
+	mails are read, they should be removed from the unread view. Which ADT
+	would you choose to manage the ordering of the mails?
+\end{scenario}
+Since new emails are being pushed onto the unread view, it is largely correct to say that the \textbf{stack} data structure would prove to be the most useful in this situation. However, there is one caveat, which is that since the stack can only remove the top-most element, the user is strictly confined to reading the newest email sent to them before reading the older ones. This is to say that the stack data structure is not the best fit given that, if their email is riddled with spam, it would be of great annoyance to the user.
+
+\begin{scenario}[\autocite{lamAssignment3Weeks}]
+	You are writing a program to return search results for an online store. When
+	a user types in a query you should return all products that include the search
+	term in their title. Which ADT would you choose to manage the products
+	and their titles?
+\end{scenario}
+When assigned with browsing a potentially huge amount of entries, similar to this situation about search results from an online store, clearly the data structure implemented must be accommodating to speed when it comes to matching keywords. For that, the \textbf{map} data structure will be the most applicable one thanks to its constant look-up time. 
+
+\section*{Problem 2}
+% Original Binary Tree
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}[binary tree layout,
+		nodes={circle, draw, font=\scriptsize}]
+		
+		\graph {
+			F -- {
+				B -- {
+					A,
+					E -- C[second] -- D
+				},
+				H -- {
+					J,
+					L
+				}
+			}
+		};
+	\end{tikzpicture}
+	\caption{Binary Search Tree for Problem 2}
+	\label{bstProblem2}
+\end{figure}
+This problem requires us to list out the nodes of the binary tree shown in Figure \ref{bstProblem2} in pre-, in-, and post-order traversal. Figure \ref{bstSolution2-1}, \ref{bstSolution2-2}, and \ref{bstSolution2-3} shows the order in which the traversal is done. From the figure, we can conclude that the pre-order traversal traverses the letters the following order; \textbf{[F, B, A, E, C, D, H, J, L]}. Meanwhile, the in-order traversal orders the value in this order; \textbf{[A, B, E, D, C, F, J, H, L]}. Finally, the post-order traversal travels in the order; \textbf{[A, D, C, E, B, J, L, H, F]}.
+
+% Traversal Orders
+\begin{figure}[h]
+	\centering
+	% Pre-order traversal
+	\begin{subfigure}{0.33\textwidth}
+		\centering
+		\begin{tikzpicture}[
+			arrow/.style={->, thick, draw=blue, bend right=20},
+			node distance=1cm
+			]
+			
+			\graph[binary tree layout, 
+			nodes={circle, draw, font=\tiny}] {
+				F -- {
+					B -- {
+						A,
+						E -- C[second] -- D
+					},
+					H -- {
+						J,
+						L
+					}
+				}
+			};
+			
+			\path
+			(F) edge[arrow] (B)
+			(B) edge[arrow] (A)
+			(A) edge[arrow] (E)
+			(E) edge[arrow] (C)
+			(C) edge[arrow] (D)
+			(D) edge[arrow] (H)
+			(H) edge[arrow] (J)
+			(J) edge[arrow] (L);
+		\end{tikzpicture}
+		\caption{Pre-order Traversal}
+		\label{bstSolution2-1}
+	\end{subfigure}%
+	% In-order Traversal
+	\begin{subfigure}{0.33\textwidth}
+		\centering
+		\begin{tikzpicture}[
+			arrow/.style={->, thick, draw=blue, bend left=20},
+			node distance=1cm
+			]
+			
+			\graph[binary tree layout, nodes={circle, draw, font=\tiny}] {
+				F -- {
+					B -- {
+						A,
+						E -- C[second] -- D
+					},
+					H -- {
+						J,
+						L
+					}
+				}
+			};
+			
+			\path
+			(A) edge[arrow] (B)
+			(B) edge[arrow] (E)
+			(E) edge[arrow, bend right=20] (D)
+			(D) edge[arrow, bend right=20] (C)
+			(C) edge[arrow, bend right=20] (F)
+			(F) edge[arrow] (J)
+			(J) edge[arrow, bend right=20] (H)
+			(H) edge[arrow] (L);
+		\end{tikzpicture} 
+		\caption{In-order Traversal}
+		\label{bstSolution2-2}
+	\end{subfigure}%
+	% Post-order Traversal
+	\begin{subfigure}{0.33\textwidth}
+		\centering
+		\begin{tikzpicture}[
+			arrow/.style={->, thick, draw=blue, bend right=20},
+			node distance=1cm
+			]
+			
+			\graph[binary tree layout, nodes={circle, draw, font=\tiny}] {
+				F -- {
+					B -- {
+						A,
+						E -- C[second] -- D
+					},
+					H -- {
+						J,
+						L
+					}
+				}
+			};
+			
+			\path
+			(A) edge[arrow] (D)
+			(D) edge[arrow] (C)
+			(C) edge[arrow] (E)
+			(E) edge[arrow, bend left=20] (B)
+			(B) edge[arrow, bend left=20] (J)
+			(J) edge[arrow] (L)
+			(L) edge[arrow] (H)
+			(H) edge[arrow] (F);
+		\end{tikzpicture} 
+		\caption{Post-order Traversal}
+		\label{bstSolution2-3}
+	\end{subfigure}
+	\caption{Three types of Binary Search Tree traversals}
+\end{figure}
+
+\section*{Problem 3}
+% Initial Binary Tree
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}[binary tree layout,
+		nodes={circle, draw, font=\scriptsize}]
+		
+		\graph {
+			 47 -- {
+			 	16 -- {
+			 		3,
+			 		37 -- 35 -- 28
+			 	},
+			 	84 -- {
+			 		64 -- 49,
+			 		86 -- 88[second]
+			 	}
+			 }
+		};
+	\end{tikzpicture}
+	\caption{Initial Binary Tree for Problem 3}
+	\label{bstProblem3}
+\end{figure}
+This problem requires us to perform some operations on this binary tree, and draw its modified tree after each operation. Figure \ref{bstProblem3} shows the initial tree without any altercations made yet. Figure \ref{bstSolution3-1}, \ref{bstSolution3-2}, \ref{bstSolution3-3}, \ref{bstSolution3-4}, and \ref{bstSolution3-5} shows the modified tree after these five operations.
+
+% Modified Binary Tree after each operation
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\begin{tikzpicture}[binary tree layout,
+			nodes={circle, draw, font=\scriptsize},
+			arrow/.style={->, thick, draw=ForestGreen, bend right=20}]
+			
+			\graph {
+				47 -- {
+					16 -- {
+						3 --[ForestGreen] 2[ForestGreen],
+						37 -- 35 -- 28
+					},
+					84 -- {
+						64 -- 49,
+						86 -- 88[second]
+					}
+				}
+			};
+			
+			\path 
+			(47) edge[arrow] (16)
+			(16) edge[arrow] (3)
+			(3) edge[arrow] (2);
+		\end{tikzpicture}
+		\caption{Binary Tree after \textbf{inserting 2}}
+		\label{bstSolution3-1}
+	\end{subfigure}%
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\begin{tikzpicture}[binary tree layout,
+			nodes={circle, draw, font=\scriptsize},
+			arrow/.style={->, thick, draw=Red, bend right=20}]
+			
+			\graph {
+				47 -- {
+					16 -- {
+						3 -- 2,
+						37 -- 35 -- 28
+					},
+					84 -- {
+						64 --[Red, dashed] 49[Red, dashed],
+						86 -- 88[second]
+					}
+				}
+			};
+			
+			\path 
+			(47) edge[arrow] (84)
+			(84) edge[arrow] (64)
+			(64) edge[arrow] (49);
+		\end{tikzpicture}
+		\caption{Binary Tree after \textbf{deleting 49}}
+		\label{bstSolution3-2}
+	\end{subfigure}%
+	\vskip 1cm
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\begin{tikzpicture}[binary tree layout,
+			nodes={circle, draw, font=\scriptsize},
+			arrow/.style={->, thick, draw=Red, bend right=20}]
+			
+			\graph[simple, minimum number of children=2] {
+				47 -- {
+					16 -- {
+						3 -- 2,
+						37 -- {
+							28,
+							35[Red, dashed]
+						};
+					},
+					84 -- {
+						64,
+						86 -- 88[second]
+					}
+				};
+				37 ->[ForestGreen] 28;
+				37 --[Red, dashed] 35;
+				35 --[Red, dashed] 28;
+			};
+			
+			\path 
+			(47) edge[arrow] (16)
+			(16) edge[arrow] (37)
+			(37) edge[arrow] (35);
+		\end{tikzpicture}
+		\caption{Binary Tree after \textbf{deleting 35}}
+		\label{bstSolution3-3}
+	\end{subfigure}%
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\begin{tikzpicture}[binary tree layout,
+			nodes={circle, draw, font=\scriptsize},
+			arrow/.style={->, thick, draw=ForestGreen, bend right=20}]
+			
+			\graph[simple, minimum number of children=2] {
+				47 -- {
+					16 -- {
+						3 -- 2,
+						37 -- 28;
+					},
+					84 -- {
+						64,
+						85[ForestGreen] ->[ForestGreen] 86[second] -- 88[second]
+					}
+				};
+				84 ->[ForestGreen] 85;
+			};
+			
+			\path 
+			(47) edge[arrow] (84);
+		\end{tikzpicture}
+		\caption{Binary Tree after \textbf{inserting 85}}
+		\label{bstSolution3-4}
+	\end{subfigure}%
+	\vskip 1cm
+	\begin{subfigure}{\textwidth}
+		\centering
+		\begin{tikzpicture}[binary tree layout,
+			nodes={circle, draw, font=\scriptsize},
+			arrow/.style={->, thick, draw=Red, bend right=20}]
+			
+			\graph[simple, minimum number of children=2] {
+				47 -- {
+					16 -- {
+						3 -- 2,
+						37 -- 28;
+					},
+					84[Red, dashed] --[Red, dashed] {
+						64[first],
+						85[second] -- 86[second] -- 88[second]
+					}
+				};
+				47 --[Red, dashed] 84;
+				85 ->[ForestGreen] 64[first];
+			};
+			
+			\path 
+			(47) edge[arrow] (84)
+			(47) edge[arrow, ForestGreen, bend left=20] (85);
+		\end{tikzpicture}
+		\caption{Binary Tree after \textbf{deleting 84}}
+		\label{bstSolution3-5}
+	\end{subfigure}
+	\caption{Binary Trees after each modifications}
+\end{figure}
+
+\section*{Problem 4}
+For this problem, we are asked to fill in the hash table with a capacity of 11 elements from the 9 elements provided to us in 2 different ways, that is with linear probing and double hashing. To achieve this quickly, C++ code was utilized to visualize what element would go where, in order to minimize error. This part is mainly on the linear probing method, where if a collision appears, the element would be put in the next bucket instead. This is equivalent to a double hashing method, where $h_2(k) = 1$, in which case the hashing function is as simple as $h(k, i) = (h + i) \mod 11$. The following C++ code in Listing \ref{problem4aCode} shows the result from the hash function in several values of $i$, and Figure \ref{problem4a} shows the final resulting hash table from linear probing.
+\begin{listing}[h]
+	\begin{minted}{cpp}
+		# include <iostream>
+		
+		int main() {
+			int values[]{ 10,22,31,4,15,28,17,88,59 };
+			for (int v : values) {
+				std::cout << v << '\t';
+			}
+			std::cout << "\n\n";
+			for (int i = 0; i < 10; i++) {
+				for (int k : values) {
+					std::cout << (h + i) % 11 << "\t";
+				}
+				std::cout << '\n';
+			}
+			
+			return 0;
+		}
+	\end{minted}
+	\caption{C++ code to print out the linear probed indices for various $i$.}
+	\label{problem4aCode}
+\end{listing}
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}[font=\large]
+		\draw (0, 0) grid (1, -11);
+		\foreach \i in {0,...,10} {
+			\draw (-0.5, -\i-0.5) node {$\i$};
+			\node[anchor=center] (slot\i) at (0.5, -\i-0.5) {};
+		}
+		
+		\draw[<-] (slot10) -- ++(1, 0) node[right] {10};
+		\draw[<-] (slot0) -- ++(1, 0) node[right] {22};
+		\draw[<-] (slot9) -- ++(1, 0) node[right] {31};
+		
+		\draw[<-] (slot4) -- ++(1, 0) node[right] {4};
+		\draw[<-, Red, dashed] ($(slot4)+(1.5,0)$) -- ++(1, 0) node[right, Black] {15};
+		\draw[->] ($(slot4)+(2.5, -0.2)$) parabola[bend at end] (slot5);
+		
+		\draw[<-] (slot6) -- ++(1, 0) node[right] {28};
+		\draw[<-, Red, dashed] ($(slot6)+(1.75,0)$) -- ++(1, 0) node[right, Black] {17};
+		\draw[->] ($(slot6)+(2.75, -0.2)$) parabola[bend at end] (slot7);
+		
+		\draw[<-, Red, dashed] ($(slot0)+(1.75,0)$) -- ++(1, 0) node[right, Black] {88};
+		\draw[->] ($(slot0)+(2.75, -0.2)$) parabola[bend at end] (slot1);
+		
+		\draw[<-, Red, dashed] ($(slot4)+(3.25,0)$) -- ++(1, 0) node[right, Black] {59};
+		\draw[->] ($(slot4)+(4.5, -0.3)$) parabola[bend pos=0.75] bend +(1, -1) (slot8);
+		
+		\draw (8, 0) grid (9, -11);
+		\foreach \i in {0,...,10} {
+			\draw (7.5, -\i-0.5) node {$\i$};
+			\node[anchor=center] (nslot\i) at (8.5, -\i-0.5) {};
+		}
+		
+		\draw (nslot0) node {22};
+		\draw (nslot1) node {88};
+		\draw (nslot4) node {4};
+		\draw (nslot5) node {15};
+		\draw (nslot6) node {28};
+		\draw (nslot7) node {17};
+		\draw (nslot8) node {59};
+		\draw (nslot9) node {31};
+		\draw (nslot10) node {10};
+	\end{tikzpicture}
+	\caption{Linear Probing; how each element is distributed in the hash table (left) and the final occupied hash table (right)}
+	\label{problem4a}
+\end{figure}
+
+This part will now focus on a double hashing approach to resolving collisions in the hash table. The two hash functions given are $h_1(k) = k$ and $h_2(k) = 1 + (k \mod 10)$. When put together, the final hash function utilized is of the form $h(k, i) = k + i(1 + (k\mod10))$.
+This function was then implemented as C++ code, which was written to visualize which bucket will each element belong to for 10 different values of $i$, provided in Listing \ref{problem4bCode}. Figure \ref{problem4b} shows the resulting hash table under the specified hash functions described earlier.
+\begin{listing}[h]
+	\begin{minted}{cpp}
+		# include <iostream>
+		
+		int h1(int k) {
+			return k;
+		}
+		
+		int h2(int k) {
+			return 1 + (k % 10);
+		}
+		
+		int main() {
+			int values[]{ 10,22,31,4,15,28,17,88,59 };
+			for (int v : values) {
+				std::cout << v << '\t';
+			}
+			std::cout << "\n\n";
+			for (int i = 0; i < 10; i++) {
+				for (int k : values) {
+					std::cout << (h1(k) + i * h2(k)) % 11 << "\t";
+				}
+				std::cout << '\n';
+			}
+			
+			return 0;
+		}
+	\end{minted}
+	\caption{C++ code to print out the double hashed indices for various $i$.}
+	\label{problem4bCode}
+\end{listing}
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}[font=\large]
+		\draw (0, 0) grid (1, -11);
+		\foreach \i in {0,...,10} {
+			\draw (-0.5, -\i-0.5) node {$\i$};
+			\node[anchor=center] (slot\i) at (0.5, -\i-0.5) {};
+		}
+		
+		\draw[<-] (slot10) -- ++(1, 0) node[right] {10};
+		\draw[<-] (slot0) -- ++(1, 0) node[right] {22};
+		\draw[<-] (slot9) -- ++(1, 0) node[right] {31};
+		\draw[<-] (slot4) -- ++(1, 0) node[right] {4};
+		
+		\draw[<-, Red, dashed] ($(slot4)+(1.5,0)$) -- ++(1, 0) node[right, Black] {15};
+		\draw[->, Red, dashed] ($(slot4)+(2.5, -0.2)$) parabola[bend at end] (slot10);
+		\draw[->] ($(slot4)+(2.5, -0.2)$) parabola[bend at end] (slot5);
+		
+		\draw[<-] (slot6) -- ++(1, 0) node[right] {28};
+		
+		\draw[<-, Red, dashed] ($(slot6)+(1.75,0)$) -- ++(1, 0) node[right, Black] {17};
+		\draw[->] ($(slot6)+(2.75, 0.2)$) parabola[bend at end] (slot3);
+		
+		\draw[<-, Red, dashed] ($(slot0)+(1.75,0)$) -- ++(1, 0) node[right, Black] {88};
+		\draw[->, Red, dashed] ($(slot0)+(2.75, -0.2)$) parabola[bend at end] (slot9);
+		\draw[->] ($(slot0)+(2.75, -0.2)$) parabola[bend at end] (slot7);
+		
+		\draw[<-, Red, dashed] ($(slot4)+(3.25,0)$) -- ++(1, 0) node[right, Black] {59};
+		\draw[->, Red, dashed] ($(slot4)+(4.5, 0.3)$) parabola[bend at end] (slot3);
+		\draw[->] ($(slot4)+(4.5, 0.3)$) parabola[bend at end] (slot2);
+		
+		\draw (8, 0) grid (9, -11);
+		\foreach \i in {0,...,10} {
+			\draw (7.5, -\i-0.5) node {$\i$};
+			\node[anchor=center] (nslot\i) at (8.5, -\i-0.5) {};
+		}
+		
+		\draw (nslot0) node {22};
+		\draw (nslot7) node {88};
+		\draw (nslot4) node {4};
+		\draw (nslot5) node {15};
+		\draw (nslot6) node {28};
+		\draw (nslot3) node {17};
+		\draw (nslot2) node {59};
+		\draw (nslot9) node {31};
+		\draw (nslot10) node {10};
+	\end{tikzpicture}
+	\caption{Double Hashing; how each element is distributed in the hash table (left) and the final occupied hash table (right)}
+	\label{problem4b}
+\end{figure}
+\section*{Problem 5}
+To determine which hash function is the best for distributing 2020 keys into 10 buckets, we will need to examine each function with a statistical test to determine the closest one to uniformity. To achieve this, we will utilize the Chi-Squared Goodness-of-fit Test, given as the formula;
+\begin{equation}
+	\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
+\end{equation}
+where $O_i$ denotes the observed value and $E_i$ denotes the expected value \autocite{GoodnessFit2024}. Since we are looking for uniformity, the most ideal case would be that each bucket receives the same amount of keys, which we can find by dividing 2020 by 10, which would give us $E_i = 202$ for every bucket $i$.
+
+Now, to obtain our observed values, we can do a bit of programming to calculate these values fast. This can be achieved by setting an array of 10 elements, initialized at 0, and then for each of the 2020 keys, we can compute the hashed value $h(k)$ and increment the value at the index $h(k) \mod 10$. The counter array will give us the amount of elements placed into each bucket, thereby giving us the observed values. Listing \ref{problem5Code} gives the C implementation of this algorithm.
+\begin{listing}[h]
+	\begin{minted}{c}
+		int main() {
+			int n = 10;
+			int counter[n];
+			
+			int k;
+			for (k = 0; k < n; i++) {
+				counter[k] = 0;
+			}
+			
+			int maxK = 2020;
+			for (k = 0; k < maxK; i++) {
+				counter[h(k) % n]++;
+			}
+		}
+	\end{minted}
+	\caption{Counting algorithm to produce the observed values.}
+	\label{problem5Code}
+\end{listing}
+
+Using the code provided, we can accurately plot the observed values on a line graph shown in Figure \ref{problem5Graph}. Graphically, we can see from the figure that the \textbf{hash function C} provides the most even distribution out of the 4. This is in line with our Chi-Squared statistical test as well, as hash function C outputs the smallest $\chi^2$ at $109.430693$, followed by function B and D with $1616$, and finally, the most uneven, function A at $2020$.
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			xlabel=Bucket,
+			ylabel=Number of keys,
+			ymajorgrids,
+			legend to name=ideal,
+			grid style={dashed},
+			legend entries={$12k$, $11k^2$, $k^3$, $k^2$},
+			legend columns=4,
+			]
+			
+			\addplot coordinates {(0,404)(1,0)(2,404)(3,0)(4,404)(5,0)(6,404)(7,0)(8,404)(9,0)};
+			\addplot coordinates {(0,202)(1,404)(2,0)(3,0)(4,404)(5,202)(6,404)(7,0)(8,0)(9,404)};
+			\addplot coordinates {(0,203)(1,152)(2,152)(3,153)(4,153)(5,152)(6,153)(7,153)(8,152)(9,152)};
+			\addplot coordinates {(0,202)(1,404)(2,0)(3,0)(4,404)(5,202)(6,404)(7,0)(8,0)(9,404)};
+		\end{axis}
+		\node[anchor=north] at (current axis.below south){\ref{ideal}};
+	\end{tikzpicture}
+	\caption{Distribution of keys over the buckets}
+	\label{problem5Graph}
+\end{figure}
+
+\section*{Problem 6}
+For this problem, we are given pseudocode for removing duplicates within an array, as shown in Algorithm \ref{problem6pseudocode}. From the pseudocode given, it is clear that the complexity will rely on the performance of searching for an item in the set and inserting that item into the set. If the set implemented was a binary search tree, then the time complexity of both searching and inserting is \textbf{linear time $O(h)$}, where $h$ is the height of the tree \autocite{BinarySearchTree2025}. Indeed, in the worst case where the tree is heavily lopsided, the total complexity would equal to that of a linked list, which is $O(n)$, and in the average case scenario, it would be some multiple of 2, meaning $O(\log n)$ \autocite{BinarySearchTree2025}. The total runtime of this algorithm is, accounting for the fact that appending to a dynamic array is costs constant time \autocite{ptinAnswerWhyTime2023}, would be $O(2n\log n) \in \boxed{O(n\log n)}$ on average, taking the \lstinline|for|-loop into consideration.
+
+Meanwhile, if the set implemented was a hash table, searching and inserting would only take a time complexity of \textbf{constant time $O(1)$} on average \autocite{HashTable2025}. Of course, collisions might still appear and, in the worst case, slow insertion down to $O(n)$, but regardless, this function would run marginally faster if the set implemented was a hash table \autocite{HashTable2025}, as this provides the total average time complexity of $\boxed{O(n)}$ for the algorithm.
+\begin{algorithm}[h]
+	\caption{Pseudocode provided in Problem 6.}
+	\SetAlgoLined
+	\SetKwProg{Fn}{Function}{:}{end}
+	\SetKwComment{Comment}{// }{}
+	\Fn{removeDuplicate(A)}{
+		\Comment{A: Input Array}
+		
+		$S = $ new empty set\;
+		$R = $ new empty dynamic array\;
+		\ForEach{$x \in A$}{
+			\If{not $S$.contains($x$)}{
+				$S.add(x)$\;
+				$R.append(x)$\;
+			}
+		}
+	}
+	
+	\label{problem6pseudocode}
+\end{algorithm}
+
+\section*{Problem 7}
+This problem is an extension of the famous LeetCode Two Sum problem, where we need to find a pair of numbers within the array that adds up to a target number. This problem has a special, further restriction of 'closeness', where we can only search for elements that are sufficiently close enough to each other. More specifically, their absolute distance to each other cannot be less than a tenth of the total elements in the array. We can achieve this by utilizing the hash table to provide the average case $O(n)$ time complexity algorithm the problem asks for.
+
+To start, we will need to initialize a hash table to store a mapping between the elements in the array and its index. Then, for every element in the array, we will take the difference $d$ between it and the target number $r$, and we check to see if that difference is in the table. If it is, then we have found the pair of numbers that can sum to the target, since
+\begin{align*}
+	r - B_i &= B_j \\
+	B_i + B_j &= r
+\end{align*}
+where $j \neq i$.
+
+Then, we can compare their indices by taking the absolute difference and return true if it is lower than $n / 10$, rounded down. If either the element isn't in the hash table or the indices are too far apart, then we add the key-value pair $i$ and $B_i$, where $B_i$ is the key, into the hash table for the next iteration to compare to. If nothing matches, then the loop will exit and return false. The C++ implementation of this algorithm can be found in Listing \ref{problem7aCode}.
+\begin{listing}
+	\begin{minted}{cpp}
+		#include <vector>
+		#include <unordered_map>
+		
+		bool hasClosePair(std::vector<int> B, int r) {
+			int n{ static_cast<int>(B.size()) };
+			int wLen{ n / 10 };
+			std::unordered_map<int, int> lookup{};
+			
+			for (int i{ 0 }; i < n; i++) {
+				int d{ r - B[i] };
+				
+				if (lookup.contains(d)) {
+					int j{ lookup.at(d) };
+					if (abs(i - j) < wLen) return true;
+				}
+				
+				lookup[B[i]] = i;
+			}
+			
+			return false;
+		}
+	\end{minted}
+	\caption{C++ implementation of the algorithm for part A}
+	\label{problem7aCode}
+\end{listing}
+Clearly, inserting into the table will take an expected, amortized $O(1)$ complexity, while look-ups will also take an expected $O(1)$ complexity. Since we are running through the loop $n$ times, it is expected that the final runtime complexity of this algorithm falls into the expected $O(n)$ time complexity.
+
+Now, to achieve a worst-case $O(n)$ algorithm would normally be impossible, but with the addition of a new restriction on $r$, that is $r < n^2$, we can achieve this by utilizing direct addressing. Normally, direct addressing would be memory unsafe for a very large $r$, given that the hash array to keep track of your values could be unreasonably large. But since $r$ is now bounded by $n^2$, we can utilize this method. We start by initializing an array of size $r+1$, initialized with the value $-1$. This ensures that when checking for closeness, we are comparing it against values already in the table rather than uninitialized values. Then, just like before, we will take the difference between $r$ and $B_i$, but now we will compare it between $0$ and $r$ inclusive, to ensure no out-of-bounds index error. Afterwards, we check if the value is initialized or not with $H_i > -1$ where $H$ is the hash table and $i$ is the current index, and if it is close enough with $abs(i - H_i) < wLen$. If all 4 conditions are met, then the search concludes and returns true. Otherwise, it runs through one more check to see if the index $B_i$ is less than or equal to $r$, to which the hash table updates to set its index $i$ at $B_i$ if true. The C++ implementation can be seen in Listing \ref{problem7bCode}.
+\begin{listing}[h]
+	\begin{minted}{cpp}
+		#include <iostream>
+		#include <vector>
+		
+		bool hasClosePair(std::vector<int> B, int r) {
+			int n{ static_cast<int>(B.size()) };
+			int wLen{ n / 10 };
+			std::vector<int> lookup(r+1, -1);
+			
+			for (int i{ 0 }; i < n; i++) {
+				int d{ r - B[i] };
+				
+				if (d > -1 && d < r+1) {
+					if (lookup[d] > -1 && abs(i - lookup[d]) < wLen) return true;
+				}
+				
+				if (B[i] <= r) {
+					lookup[B[i]] = i;
+				}
+			}
+			
+			return false;
+		}
+	\end{minted}
+	\caption{C++ implementation of the algorithm for part B.}
+	\label{problem7bCode}
+\end{listing}
+Since every value in the array is unique, and the modulo was not utilized thanks to the direct addressing scheme for the hash table, we are not required to do additional work for collisions because it is impossible for one to appear. Thus, this algorithm has a runtime of $O(1)$ in the worst case, due to the time complexity of a direct addressing hash table look-up and insertion.
+
+\printbibliography
+\end{document}
