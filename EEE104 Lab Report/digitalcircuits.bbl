@@ -1,0 +1,461 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{booleLogicMathematicalAnalysis2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=11e54e87435aa3c53aa25a448424f022}{%
+           family={Boole},
+           familyi={B\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CreateSpace Independent Publishing Platform}%
+      }
+      \strng{namehash}{11e54e87435aa3c53aa25a448424f022}
+      \strng{fullhash}{11e54e87435aa3c53aa25a448424f022}
+      \strng{fullhashraw}{11e54e87435aa3c53aa25a448424f022}
+      \strng{bibnamehash}{11e54e87435aa3c53aa25a448424f022}
+      \strng{authorbibnamehash}{11e54e87435aa3c53aa25a448424f022}
+      \strng{authornamehash}{11e54e87435aa3c53aa25a448424f022}
+      \strng{authorfullhash}{11e54e87435aa3c53aa25a448424f022}
+      \strng{authorfullhashraw}{11e54e87435aa3c53aa25a448424f022}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{George Boole was an English mathematician and logician. He worked in the fields of differential equations and algebraic logic. Boolean logic (once described as "0 and 1" logic) is credited with laying the foundations for the information age. In 1841 Boole published an influential paper in early invariant theory. He received a medal from the Royal Society for his 1844 work, On A General Method of Analysis. It was a contribution to the theory of linear differential equations, moving from the case of constant coefficients on which he had already published, to variable coefficients. In 1847 Boole published The Mathematical Analysis of Logic, the first of his works on symbolic logic.}
+      \field{day}{3}
+      \field{eprinttype}{googlebooks}
+      \field{isbn}{978-1-5191-1866-0}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{pagetotal}{90}
+      \field{shorttitle}{Logic}
+      \field{title}{Logic: {{The Mathematical Analysis}} of {{Logic}}, {{Being}} an {{Essay Towards}} a {{Calculus}} of {{Deductive Reasoning}}}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb q6wbjwEACAAJ
+      \endverb
+      \keyw{Mathematics / Calculus}
+    \endentry
+    \entry{dheerajFlipFlopExplained2020}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=981234e053c770cfd691de93fcae7fc6}{%
+           family={Dheeraj},
+           familyi={D\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {DCAClab Blog}%
+      }
+      \strng{namehash}{981234e053c770cfd691de93fcae7fc6}
+      \strng{fullhash}{981234e053c770cfd691de93fcae7fc6}
+      \strng{fullhashraw}{981234e053c770cfd691de93fcae7fc6}
+      \strng{bibnamehash}{981234e053c770cfd691de93fcae7fc6}
+      \strng{authorbibnamehash}{981234e053c770cfd691de93fcae7fc6}
+      \strng{authornamehash}{981234e053c770cfd691de93fcae7fc6}
+      \strng{authorfullhash}{981234e053c770cfd691de93fcae7fc6}
+      \strng{authorfullhashraw}{981234e053c770cfd691de93fcae7fc6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Flip – flops are one of the most fundamental electronic components. These are used as one-bit storage elements, clock dividers and also we can make counters, shift registers and storing registers by connecting the flip flops in particular sequences. These flip flops use feedback concept to create sequential logic where the previous state affect future …}
+      \field{day}{20}
+      \field{hour}{18}
+      \field{langid}{american}
+      \field{minute}{54}
+      \field{month}{1}
+      \field{second}{17}
+      \field{timezone}{+02\bibtzminsep 00}
+      \field{title}{J {{K Flip Flop Explained}} in {{Detail}}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\J3T775WN\j-k-flip-flop-explained-in-detail.html
+      \endverb
+      \verb{urlraw}
+      \verb https://dcaclab.com/blog/j-k-flip-flop-explained-in-detail/
+      \endverb
+      \verb{url}
+      \verb https://dcaclab.com/blog/j-k-flip-flop-explained-in-detail/
+      \endverb
+    \endentry
+    \entry{EEE104DigitalElectronics2024}{book}{}{}
+      \list{location}{1}{%
+        {Suzhou, China}%
+      }
+      \list{publisher}{1}{%
+        {Xi'an Jiaotong-Liverpool University}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{pagetotal}{11}
+      \field{title}{{{EEE104}} - {{Digital Electronics Laboratory Manual}}}
+      \field{year}{2024}
+      \field{dateera}{ce}
+    \endentry
+    \entry{FlipflopElectronics2024}{inreference}{}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In electronics, flip-flops and latches are circuits that have two stable states that can store state information – a bistable multivibrator. The circuit can be made to change state by signals applied to one or more control inputs and will output its state (often along with its logical complement too). It is the basic storage element in sequential logic. Flip-flops and latches are fundamental building blocks of digital electronics systems used in computers, communications, and many other types of systems. Flip-flops and latches are used as data storage elements to store a single bit (binary digit) of data; one of its two states represents a "one" and the other represents a "zero". Such data storage can be used for storage of state, and such a circuit is described as sequential logic in electronics. When used in a finite-state machine, the output and next state depend not only on its current input, but also on its current state (and hence, previous inputs). It can also be used for counting of pulses, and for synchronizing variably-timed input signals to some reference timing signal. The term flip-flop has historically referred generically to both level-triggered (asynchronous, transparent, or opaque) and edge-triggered (synchronous, or clocked) circuits that store a single bit of data using gates. Modern authors reserve the term flip-flop exclusively for edge-triggered storage elements and latches for level-triggered ones. The terms "edge-triggered", and "level-triggered" may be used to avoid ambiguity. When a level-triggered latch is enabled it becomes transparent, but an edge-triggered flip-flop's output only changes on a clock edge (either positive going or negative going). Different types of flip-flops and latches are available as integrated circuits, usually with multiple elements per chip. For example, 74HC75 is a quadruple transparent latch in the 7400 series.}
+      \field{annotation}{Page Version ID: 1249382557}
+      \field{booktitle}{Wikipedia}
+      \field{day}{4}
+      \field{hour}{16}
+      \field{langid}{english}
+      \field{minute}{47}
+      \field{month}{10}
+      \field{second}{24}
+      \field{timezone}{Z}
+      \field{title}{Flip-Flop (Electronics)}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\RQKZYYHY\Flip-flop_(electronics).html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Flip-flop_(electronics)&oldid=1249382557#JK_flip-flop
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Flip-flop_(electronics)&oldid=1249382557#JK_flip-flop
+      \endverb
+    \endentry
+    \entry{HalfAdderDigital2015}{online}{}{}
+      \list{organization}{1}{%
+        {GeeksforGeeks}%
+      }
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.}
+      \field{day}{3}
+      \field{hour}{8}
+      \field{langid}{american}
+      \field{minute}{53}
+      \field{month}{8}
+      \field{second}{38}
+      \field{timezone}{Z}
+      \field{title}{Half {{Adder}} in {{Digital Logic}}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\R6IDX47U\half-adder-in-digital-logic.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/half-adder-in-digital-logic/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/half-adder-in-digital-logic/
+      \endverb
+    \endentry
+    \entry{holdsworthBooleanAlgebra2002}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=b406aa9f08d24f33a4f768ae210bc7bc}{%
+           family={Holdsworth},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4a9b9bf87bf9ba54af5b58c7e3dfd362}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={R.C.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{10751a8608335db277e355c28865e3de}
+      \strng{fullhash}{10751a8608335db277e355c28865e3de}
+      \strng{fullhashraw}{10751a8608335db277e355c28865e3de}
+      \strng{bibnamehash}{10751a8608335db277e355c28865e3de}
+      \strng{authorbibnamehash}{10751a8608335db277e355c28865e3de}
+      \strng{authornamehash}{10751a8608335db277e355c28865e3de}
+      \strng{authorfullhash}{10751a8608335db277e355c28865e3de}
+      \strng{authorfullhashraw}{10751a8608335db277e355c28865e3de}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Digital {{Logic Design}}}
+      \field{isbn}{978-0-7506-4582-9}
+      \field{langid}{english}
+      \field{title}{Boolean Algebra}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{28\bibrangedash 42}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/B978-075064582-9/50003-2
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780750645829500032
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780750645829500032
+      \endverb
+    \endentry
+    \entry{LogicGate2024}{inreference}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A logic gate is a device that performs a Boolean function, a logical operation performed on one or more binary inputs that produces a single binary output. Depending on the context, the term may refer to an ideal logic gate, one that has, for instance, zero rise time and unlimited fan-out, or it may refer to a non-ideal physical device (see ideal and real op-amps for comparison). The primary way of building logic gates uses diodes or transistors acting as electronic switches. Today, most logic gates are made from MOSFETs (metal–oxide–semiconductor field-effect transistors). They can also be constructed using vacuum tubes, electromagnetic relays with relay logic, fluidic logic, pneumatic logic, optics, molecules, acoustics, or even mechanical or thermal elements. Logic gates can be cascaded in the same way that Boolean functions can be composed, allowing the construction of a physical model of all of Boolean logic, and therefore, all of the algorithms and mathematics that can be described with Boolean logic. Logic circuits include such devices as multiplexers, registers, arithmetic logic units (ALUs), and computer memory, all the way up through complete microprocessors, which may contain more than 100 million logic gates. Compound logic gates AND-OR-Invert (AOI) and OR-AND-Invert (OAI) are often employed in circuit design because their construction using MOSFETs is simpler and more efficient than the sum of the individual gates.}
+      \field{annotation}{Page Version ID: 1253919527}
+      \field{booktitle}{Wikipedia}
+      \field{day}{28}
+      \field{hour}{15}
+      \field{langid}{english}
+      \field{minute}{36}
+      \field{month}{10}
+      \field{second}{4}
+      \field{timezone}{Z}
+      \field{title}{Logic Gate}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\DVQ4TV5H\Logic_gate.html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Logic_gate&oldid=1253919527
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Logic_gate&oldid=1253919527
+      \endverb
+    \endentry
+    \entry{neil_ukAnswerWhatActually2017}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=cd224c51fad7b7c0403da0b6fd8f1aab}{%
+           family={Neil\_UK},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Electrical Engineering Stack Exchange}%
+      }
+      \strng{namehash}{cd224c51fad7b7c0403da0b6fd8f1aab}
+      \strng{fullhash}{cd224c51fad7b7c0403da0b6fd8f1aab}
+      \strng{fullhashraw}{cd224c51fad7b7c0403da0b6fd8f1aab}
+      \strng{bibnamehash}{cd224c51fad7b7c0403da0b6fd8f1aab}
+      \strng{authorbibnamehash}{cd224c51fad7b7c0403da0b6fd8f1aab}
+      \strng{authornamehash}{cd224c51fad7b7c0403da0b6fd8f1aab}
+      \strng{authorfullhash}{cd224c51fad7b7c0403da0b6fd8f1aab}
+      \strng{authorfullhashraw}{cd224c51fad7b7c0403da0b6fd8f1aab}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{14}
+      \field{month}{8}
+      \field{shorttitle}{Answer to "{{What}} Actually Happens When Both 1 Input Is given in {{RS}} Flip Flop Circuit (Physical Change)?}
+      \field{title}{Answer to "{{What}} Actually Happens When Both 1 Input Is given in {{RS}} Flip Flop Circuit (Physical Change)?"}
+      \field{urlday}{15}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://electronics.stackexchange.com/a/323863
+      \endverb
+      \verb{url}
+      \verb https://electronics.stackexchange.com/a/323863
+      \endverb
+    \endentry
+    \entry{rouseHalfAdder2020}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=d6ebb0634de22e70618460d3fc936297}{%
+           family={Rouse},
+           familyi={R\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Techopedia}%
+      }
+      \strng{namehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{fullhash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{fullhashraw}{d6ebb0634de22e70618460d3fc936297}
+      \strng{bibnamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorbibnamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authornamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorfullhash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorfullhashraw}{d6ebb0634de22e70618460d3fc936297}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This definition explains the meaning of Half Adder and why it matters.}
+      \field{day}{13}
+      \field{langid}{american}
+      \field{month}{11}
+      \field{title}{Half {{Adder}}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\EUBJIM9Y\half-adder.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.techopedia.com/definition/7509/half-adder
+      \endverb
+      \verb{url}
+      \verb https://www.techopedia.com/definition/7509/half-adder
+      \endverb
+    \endentry
+    \entry{shinobiAnswerVerifyDemorgans2017}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=37fc2767ab1c4826c736f1fced9a4ae7}{%
+           family={{shinobi}},
+           familyi={s\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Mathematics Stack Exchange}%
+      }
+      \strng{namehash}{37fc2767ab1c4826c736f1fced9a4ae7}
+      \strng{fullhash}{37fc2767ab1c4826c736f1fced9a4ae7}
+      \strng{fullhashraw}{37fc2767ab1c4826c736f1fced9a4ae7}
+      \strng{bibnamehash}{37fc2767ab1c4826c736f1fced9a4ae7}
+      \strng{authorbibnamehash}{37fc2767ab1c4826c736f1fced9a4ae7}
+      \strng{authornamehash}{37fc2767ab1c4826c736f1fced9a4ae7}
+      \strng{authorfullhash}{37fc2767ab1c4826c736f1fced9a4ae7}
+      \strng{authorfullhashraw}{37fc2767ab1c4826c736f1fced9a4ae7}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{4}
+      \field{title}{Answer to "{{Verify Demorgan}}'s {{Law Algebraically}}"}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\asus\Zotero\storage\AKXRS3UU\verify-demorgans-law-algebraically.html
+      \endverb
+      \verb{urlraw}
+      \verb https://math.stackexchange.com/a/2259353
+      \endverb
+      \verb{url}
+      \verb https://math.stackexchange.com/a/2259353
+      \endverb
+    \endentry
+    \entry{widmerDigitalSystemsPrinciples2018}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=d46464abd9b8e7ec4155f096244646e7}{%
+           family={Widmer},
+           familyi={W\bibinitperiod},
+           given={Neal\bibnamedelima S.},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=50148bc3e805181c0943485092683768}{%
+           family={Moss},
+           familyi={M\bibinitperiod},
+           given={Gregory\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=947027f93c224229adc7089884ad8c88}{%
+           family={Tocci},
+           familyi={T\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Harlow}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{4de4743b3c1106a89777cb926f659449}
+      \strng{fullhash}{4de4743b3c1106a89777cb926f659449}
+      \strng{fullhashraw}{4de4743b3c1106a89777cb926f659449}
+      \strng{bibnamehash}{4de4743b3c1106a89777cb926f659449}
+      \strng{authorbibnamehash}{4de4743b3c1106a89777cb926f659449}
+      \strng{authornamehash}{4de4743b3c1106a89777cb926f659449}
+      \strng{authorfullhash}{4de4743b3c1106a89777cb926f659449}
+      \strng{authorfullhashraw}{4de4743b3c1106a89777cb926f659449}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-292-16200-3}
+      \field{langid}{english}
+      \field{pagetotal}{1024}
+      \field{shorttitle}{Digital Systems}
+      \field{title}{Digital Systems: Principles and Applications}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{xuEEE104DigitalCircuits}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=f7c6021e7add2930947fbe124c0d815d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7c6021e7add2930947fbe124c0d815d}
+      \strng{fullhash}{f7c6021e7add2930947fbe124c0d815d}
+      \strng{fullhashraw}{f7c6021e7add2930947fbe124c0d815d}
+      \strng{bibnamehash}{f7c6021e7add2930947fbe124c0d815d}
+      \strng{authorbibnamehash}{f7c6021e7add2930947fbe124c0d815d}
+      \strng{authornamehash}{f7c6021e7add2930947fbe124c0d815d}
+      \strng{authorfullhash}{f7c6021e7add2930947fbe124c0d815d}
+      \strng{authorfullhashraw}{f7c6021e7add2930947fbe124c0d815d}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{EEE104 Digital Circuits Lecture}} 18}
+      \field{venue}{Xi'an Jiaotong Liverpool University}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,1501 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.9)  15 NOV 2024 21:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./digitalcircuits.tex
+(digitalcircuits.tex
+LaTeX2e <2024-11-01>
+L3 programming layer <2024-10-09>
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/outlines\outlines.sty
+Package: outlines 2012/1/23 1.1 Ch. Pecheur
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen142
+\lightrulewidth=\dimen143
+\cmidrulewidth=\dimen144
+\belowrulesep=\dimen145
+\belowbottomsep=\dimen146
+\aboverulesep=\dimen147
+\abovetopsep=\dimen148
+\cmidrulesep=\dimen149
+\cmidrulekern=\dimen150
+\defaultaddspace=\dimen151
+\@cmidla=\count271
+\@cmidlb=\count272
+\@aboverulesep=\dimen152
+\@belowrulesep=\dimen153
+\@thisruleclass=\count273
+\@lastruleclass=\count274
+\@thisrulewidth=\dimen154
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/nicematrix\nicematrix.st
+y
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
+ty
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
+ty
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+latex.def
+\pgfutil@abb=\box52
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
+ode.tex
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysl
+ibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count275
+\c@pgf@countb=\count276
+\c@pgf@countc=\count277
+\c@pgf@countd=\count278
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count279
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
+g
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+softpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count280
+\pgfsyssoftpath@bigbuffer@items=\count281
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+protocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
+ode.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
+.code.tex
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count282
+\pgfmath@box=\box53
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.code.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.basic.code.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.trigonometric.code.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.random.code.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.comparison.code.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.base.code.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.round.code.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.misc.code.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.integerarithmetics.code.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
+ode.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
+code.tex
+\c@pgfmathroundto@lastzeros=\count283
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
+ex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+points.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+scopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count284
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+graphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen188
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+quick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+objects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+arrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen192
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+shade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count285
+\pgf@shadingcount=\count286
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+image.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+external.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box57
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+layers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+patterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+rdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
+hapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box58
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3ke
+ys2e.sty
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-10-09 L3 programming layer (loader) 
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box59
+))
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: nicematrix 2024/10/29 v6.29a Enhanced arrays with the help of PGF/TikZ
+
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/10/30 v2.17s AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks28
+\ex@=\dimen194
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen195
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count288
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count289
+\leftroot@=\count290
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count291
+\DOTSCASE@=\count292
+LaTeX Info: Redefining \ldots on input line 502.
+LaTeX Info: Redefining \dots on input line 505.
+LaTeX Info: Redefining \cdots on input line 638.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+LaTeX Info: Redefining \big on input line 740.
+LaTeX Info: Redefining \Big on input line 741.
+LaTeX Info: Redefining \bigg on input line 742.
+LaTeX Info: Redefining \Bigg on input line 743.
+\big@size=\dimen196
+LaTeX Font Info:    Redeclaring font encoding OML on input line 761.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 762.
+\macc@depth=\count293
+LaTeX Info: Redefining \bmod on input line 923.
+LaTeX Info: Redefining \pmod on input line 928.
+LaTeX Info: Redefining \smash on input line 958.
+LaTeX Info: Redefining \relbar on input line 988.
+LaTeX Info: Redefining \Relbar on input line 989.
+\c@MaxMatrixCols=\count294
+\dotsspace@=\muskip17
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
+\tag@help=\toks29
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
+\andhelp@=\toks30
+\eqnshift@=\dimen197
+\alignsep@=\dimen198
+\tagshift@=\dimen199
+\tagwidth@=\dimen256
+\totwidth@=\dimen257
+\lineht@=\dimen258
+\@envbody=\toks31
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2972.
+LaTeX Info: Redefining \] on input line 2973.
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen259
+\ar@mcellbox=\box62
+\extrarowheight=\dimen260
+\NC@list=\toks33
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box63
+)
+\g__nicematrix_env_int=\count300
+\g__nicematrix_NiceMatrixBlock_int=\count301
+\g__nicematrix_notes_caption_int=\count302
+\l__nicematrix_columns_width_dim=\dimen261
+\l__nicematrix_col_width_dim=\dimen262
+\g__nicematrix_row_total_int=\count303
+\g__nicematrix_col_total_int=\count304
+\g__nicematrix_last_row_node_int=\count305
+\l__nicematrix_key_nb_rows_int=\count306
+\g__nicematrix_blocks_wd_dim=\dimen263
+\g__nicematrix_blocks_ht_dim=\dimen264
+\g__nicematrix_blocks_dp_dim=\dimen265
+\l__nicematrix_width_dim=\dimen266
+\l__nicematrix_tabular_width_dim=\dimen267
+\l__nicematrix_rule_width_dim=\dimen268
+\l__nicematrix_old_iRow_int=\count307
+\l__nicematrix_old_jCol_int=\count308
+\g__nicematrix_total_X_weight_int=\count309
+\l__nicematrix_X_columns_dim=\dimen269
+\l__nicematrix_x_initial_dim=\dimen270
+\l__nicematrix_y_initial_dim=\dimen271
+\l__nicematrix_x_final_dim=\dimen272
+\l__nicematrix_y_final_dim=\dimen273
+\l__nicematrix_tmpc_dim=\dimen274
+\l__nicematrix_tmpd_dim=\dimen275
+\l__nicematrix_tmpe_dim=\dimen276
+\l__nicematrix_tmpf_dim=\dimen277
+\g__nicematrix_dp_row_zero_dim=\dimen278
+\g__nicematrix_ht_row_zero_dim=\dimen279
+\g__nicematrix_ht_row_one_dim=\dimen280
+\g__nicematrix_dp_ante_last_row_dim=\dimen281
+\g__nicematrix_ht_last_row_dim=\dimen282
+\g__nicematrix_dp_last_row_dim=\dimen283
+\g__nicematrix_width_last_col_dim=\dimen284
+\g__nicematrix_width_first_col_dim=\dimen285
+\l__nicematrix_row_min_int=\count310
+\l__nicematrix_row_max_int=\count311
+\l__nicematrix_col_min_int=\count312
+\l__nicematrix_col_max_int=\count313
+\l__nicematrix_start_int=\count314
+\l__nicematrix_end_int=\count315
+\l__nicematrix_local_start_int=\count316
+\l__nicematrix_local_end_int=\count317
+\g__nicematrix_static_num_of_col_int=\count318
+\l__nicematrix_rounded_corners_dim=\dimen286
+\l__nicematrix_tab_rounded_corners_dim=\dimen287
+\l__nicematrix_offset_dim=\dimen288
+\l__nicematrix_line_width_dim=\dimen289
+\g__nicematrix_block_box_int=\count319
+\l__nicematrix_submatrix_extra_height_dim=\dimen290
+\l__nicematrix_submatrix_left_xshift_dim=\dimen291
+\l__nicematrix_submatrix_right_xshift_dim=\dimen292
+\l__nicematrix_first_row_int=\count320
+\l__nicematrix_first_col_int=\count321
+\l__nicematrix_last_row_int=\count322
+\l__nicematrix_last_col_int=\count323
+\c@tabularnote=\count324
+\g__nicematrix_tabularnote_int=\count325
+\c@nicematrix_draft=\count326
+\l__nicematrix_cell_space_top_limit_dim=\dimen293
+\l__nicematrix_cell_space_bottom_limit_dim=\dimen294
+\l__nicematrix_xdots_inter_dim=\dimen295
+\l__nicematrix_xdots_shorten_start_dim=\dimen296
+\l__nicematrix_xdots_shorten_end_dim=\dimen297
+\l__nicematrix_xdots_radius_dim=\dimen298
+\l__nicematrix_notes_above_space_dim=\dimen299
+\l__nicematrix_left_margin_dim=\dimen300
+\l__nicematrix_right_margin_dim=\dimen301
+\l__nicematrix_extra_left_margin_dim=\dimen302
+\l__nicematrix_extra_right_margin_dim=\dimen303
+\c__nicematrix_max_l_dim=\dimen304
+\l__nicematrix_position_int=\count327
+\l__nicematrix_multiplicity_int=\count328
+\l__nicematrix_brace_yshift_dim=\dimen305
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count329
+\mult@box=\box64
+\multicol@leftmargin=\dimen306
+\c@unbalance=\count330
+\c@collectmore=\count331
+\doublecol@number=\count332
+\multicoltolerance=\count333
+\multicolpretolerance=\count334
+\full@width=\dimen307
+\page@free=\dimen308
+\premulticols=\dimen309
+\postmulticols=\dimen310
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box65
+\last@line=\box66
+\mc@boxedresult=\box67
+\maxbalancingoverflow=\dimen311
+\mult@rightbox=\box68
+\mult@grightbox=\box69
+\mult@firstbox=\box70
+\mult@gfirstbox=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\c@minrows=\count335
+\c@columnbadness=\count336
+\c@finalcolumnbadness=\count337
+\last@try=\dimen312
+\multicolovershoot=\dimen313
+\multicolundershoot=\dimen314
+\mult@nat@firstbox=\box108
+\colbreak@box=\box109
+\mc@col@check@num=\count338
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/circuitikz\circuitikz.st
+y
+Package: circuitikz 2024/08/03{} The CircuiTikz circuit drawing package version
+ 1.7.0
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
+ty
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
+lot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen315
+\pgf@nodesepend=\dimen316
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
+y
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.c
+ode.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen317
+\pgffor@skip=\dimen318
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count339
+\pgfplotmarksize=\dimen319
+)
+\tikz@lastx=\dimen320
+\tikz@lasty=\dimen321
+\tikz@lastxsaved=\dimen322
+\tikz@lastysaved=\dimen323
+\tikz@lastmovetox=\dimen324
+\tikz@lastmovetoy=\dimen325
+\tikzleveldistance=\dimen326
+\tikzsiblingdistance=\dimen327
+\tikz@figbox=\box110
+\tikz@figbox@bg=\box111
+\tikz@tempbox=\box112
+\tikz@tempbox@bg=\box113
+\tikztreelevel=\count340
+\tikznumberofchildren=\count341
+\tikznumberofcurrentchild=\count342
+\tikz@fig@count=\count343
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
+atrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count344
+\pgfmatrixcurrentcolumn=\count345
+\pgf@matrix@numberofcolumns=\count346
+)
+\tikz@expandcount=\count347
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen328
+\pgfarrowlength=\dimen329
+\pgfarrowwidth=\dimen330
+\pgfarrowlinewidth=\dimen331
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleb
+ending.code.tex
+File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulen
+onlineartransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgftransformnonlinearflatness=\dimen332
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+rycurvilinear.code.tex
+File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@curvilinear@time@a=\dimen333
+\pgf@curvilinear@length@a=\dimen334
+\pgf@curvilinear@length@b=\dimen335
+\pgf@curvilinear@length@c=\dimen336
+\pgf@curvilinear@length@d=\dimen337
+)
+\pgf@arrows@the@rigidity=\dimen338
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryfpu.code.tex
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryfpu.code.tex))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc.def
+ines.tex
+\pgf@circ@count@a=\count348
+\pgf@circ@count@b=\count349
+\pgf@circ@count@c=\count350
+\pgf@circ@res@up=\dimen339
+\pgf@circ@res@down=\dimen340
+\pgf@circ@res@zero=\dimen341
+\pgf@circ@res@left=\dimen342
+\pgf@circ@res@right=\dimen343
+\pgf@circ@res@other=\dimen344
+\pgf@circ@res@step=\dimen345
+\pgf@circ@res@temp=\dimen346
+\pgf@circ@Rlen=\dimen347
+\pgf@circ@scaled@Rlen=\dimen348
+\pgfstartlinewidth=\dimen349
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircutil
+s.tex
+\ctikz@scratchbox=\box114
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircpath
+.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircshap
+es.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmono
+poles.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircbipo
+les.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirctrip
+oles.tex
+\pgf@circ@res@count=\count351
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircquad
+poles.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmult
+ipoles.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirclabe
+l.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircvolt
+age.tex
+\pgfcirc@labelshift=\dimen350
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirccurr
+ent.tex)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircflow
+.tex))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks36
+\minrowclearance=\skip58
+\rownum=\count352
+)
+
+LaTeX Warning: Package "xcolor" has already been loaded: ignoring load-time
+(LaTeX)        option "xcdraw".
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip59
+\thm@postskip=\skip60
+\thm@headsep=\skip61
+\dth@everypar=\toks42
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
+)
+\XKV@depth=\count353
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.st
+y
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box115
+)
+\tc@llx=\dimen351
+\tc@lly=\dimen352
+\tc@urx=\dimen353
+\tc@ury=\dimen354
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen355
+\adjbox@Height=\dimen356
+\adjbox@Depth=\dimen357
+\adjbox@Totalheight=\dimen358
+\adjbox@pwidth=\dimen359
+\adjbox@pheight=\dimen360
+\adjbox@pdepth=\dimen361
+\adjbox@ptotalheight=\dimen362
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count354
+) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box116
+\sift@deathcycles=\count355
+\@vwid@loff=\dimen363
+\@vwid@roff=\dimen364
+)) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count356
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count357
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count358
+\c@listtotal=\count359
+\c@listcount=\count360
+\c@liststart=\count361
+\c@liststop=\count362
+\c@citecount=\count363
+\c@citetotal=\count364
+\c@multicitecount=\count365
+\c@multicitetotal=\count366
+\c@instcount=\count367
+\c@maxnames=\count368
+\c@minnames=\count369
+\c@maxitems=\count370
+\c@minitems=\count371
+\c@citecounter=\count372
+\c@maxcitecounter=\count373
+\c@savedcitecounter=\count374
+\c@uniquelist=\count375
+\c@uniquename=\count376
+\c@refsection=\count377
+\c@refsegment=\count378
+\c@maxextratitle=\count379
+\c@maxextratitleyear=\count380
+\c@maxextraname=\count381
+\c@maxextradate=\count382
+\c@maxextraalpha=\count383
+\c@abbrvpenalty=\count384
+\c@highnamepenalty=\count385
+\c@lownamepenalty=\count386
+\c@maxparens=\count387
+\c@parenlevel=\count388
+\blx@tempcnta=\count389
+\blx@tempcntb=\count390
+\blx@tempcntc=\count391
+\c@blx@maxsection=\count392
+\blx@maxsegment@0=\count393
+\blx@notetype=\count394
+\blx@parenlevel@text=\count395
+\blx@parenlevel@foot=\count396
+\blx@sectionciteorder@0=\count397
+\blx@sectionciteorderinternal@0=\count398
+\blx@entrysetcounter=\count399
+\blx@biblioinstance=\count400
+\labelnumberwidth=\skip62
+\labelalphawidth=\skip63
+\biblabelsep=\skip64
+\bibitemsep=\skip65
+\bibnamesep=\skip66
+\bibinitsep=\skip67
+\bibparsep=\skip68
+\bibhang=\skip69
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language79
+\c@mincomprange=\count401
+\c@maxcomprange=\count402
+\c@mincompwidth=\count403
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count404
+\c@savedafterword=\count405
+\c@annotator=\count406
+\c@savedannotator=\count407
+\c@author=\count408
+\c@savedauthor=\count409
+\c@bookauthor=\count410
+\c@savedbookauthor=\count411
+\c@commentator=\count412
+\c@savedcommentator=\count413
+\c@editor=\count414
+\c@savededitor=\count415
+\c@editora=\count416
+\c@savededitora=\count417
+\c@editorb=\count418
+\c@savededitorb=\count419
+\c@editorc=\count420
+\c@savededitorc=\count421
+\c@foreword=\count422
+\c@savedforeword=\count423
+\c@holder=\count424
+\c@savedholder=\count425
+\c@introduction=\count426
+\c@savedintroduction=\count427
+\c@namea=\count428
+\c@savednamea=\count429
+\c@nameb=\count430
+\c@savednameb=\count431
+\c@namec=\count432
+\c@savednamec=\count433
+\c@translator=\count434
+\c@savedtranslator=\count435
+\c@shortauthor=\count436
+\c@savedshortauthor=\count437
+\c@shorteditor=\count438
+\c@savedshorteditor=\count439
+\c@labelname=\count440
+\c@savedlabelname=\count441
+\c@institution=\count442
+\c@savedinstitution=\count443
+\c@lista=\count444
+\c@savedlista=\count445
+\c@listb=\count446
+\c@savedlistb=\count447
+\c@listc=\count448
+\c@savedlistc=\count449
+\c@listd=\count450
+\c@savedlistd=\count451
+\c@liste=\count452
+\c@savedliste=\count453
+\c@listf=\count454
+\c@savedlistf=\count455
+\c@location=\count456
+\c@savedlocation=\count457
+\c@organization=\count458
+\c@savedorganization=\count459
+\c@origlocation=\count460
+\c@savedoriglocation=\count461
+\c@origpublisher=\count462
+\c@savedorigpublisher=\count463
+\c@publisher=\count464
+\c@savedpublisher=\count465
+\c@language=\count466
+\c@savedlanguage=\count467
+\c@origlanguage=\count468
+\c@savedoriglanguage=\count469
+\c@pageref=\count470
+\c@savedpageref=\count471
+\shorthandwidth=\skip70
+\shortjournalwidth=\skip71
+\shortserieswidth=\skip72
+\shorttitlewidth=\skip73
+\shortauthorwidth=\skip74
+\shorteditorwidth=\skip75
+\locallabelnumberwidth=\skip76
+\locallabelalphawidth=\skip77
+\localshorthandwidth=\skip78
+\localshortjournalwidth=\skip79
+\localshortserieswidth=\skip80
+\localshorttitlewidth=\skip81
+\localshortauthorwidth=\skip82
+\localshorteditorwidth=\skip83
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count472
+\c@textcitetotal=\count473
+\c@textcitemaxnames=\count474
+\c@biburlbigbreakpenalty=\count475
+\c@biburlbreakpenalty=\count476
+\c@biburlnumpenalty=\count477
+\c@biburlucpenalty=\count478
+\c@biburllcpenalty=\count479
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count480
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bb
+x
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count481
+\c@bbx:relatedtotal=\count482
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2024-10-09 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.
+sty
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
+.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+\c@theorem=\count483
+\c@lemma=\count484
+\@quotelevel=\count485
+\@quotereset=\count486
+ (digitalcircuits.aux)
+\openout1 = `digitalcircuits.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count487
+\scratchdimen=\dimen365
+\scratchbox=\box117
+\nofMPsegments=\count488
+\nofMParguments=\count489
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count490
+\MPscratchDim=\dimen366
+\MPnumerator=\count491
+\makeMPintoPDFobject=\count492
+\everyMPtoPDFconversion=\toks46
+)
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c__nicematrix_shift_Ldots_last_row_dim=\dimen367
+\c__nicematrix_shift_exterior_Vdots_dim=\dimen368
+\c__nicematrix_innersep_middle_dim=\dimen369
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `digitalcircuits.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'digitalcircuits.bbl' found.
+ (digitalcircuits.bbl)
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+
+
+(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+[1
+
+{C:/Users/asus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+
+[1]
+\g__nicematrix_max_cell_width_dim=\dimen370
+\c@iRow=\count493
+\c@jCol=\count494
+\l__nicematrix_cell_box=\box118
+\l__nicematrix_the_array_box=\box119
+\l__nicematrix_left_delim_dim=\dimen371
+\l__nicematrix_right_delim_dim=\dimen372
+<images/buffer.png, id=17, 143.78719pt x 70.76437pt>
+File: images/buffer.png Graphic file (type png)
+<use images/buffer.png>
+Package pdftex.def Info: images/buffer.png  used on input line 53.
+(pdftex.def)             Requested size: 71.89342pt x 35.3821pt.
+<images/NOT.png, id=19, 140.77594pt x 75.28125pt>
+File: images/NOT.png Graphic file (type png)
+<use images/NOT.png>
+Package pdftex.def Info: images/NOT.png  used on input line 54.
+(pdftex.def)             Requested size: 70.38779pt x 37.64052pt.
+<images/AND.png, id=20, 135.50626pt x 65.49469pt>
+File: images/AND.png Graphic file (type png)
+<use images/AND.png>
+Package pdftex.def Info: images/AND.png  used on input line 56.
+(pdftex.def)             Requested size: 67.75294pt x 32.74725pt.
+<images/OR.png, id=21, 140.77594pt x 71.51718pt>
+File: images/OR.png Graphic file (type png)
+<use images/OR.png>
+Package pdftex.def Info: images/OR.png  used on input line 58.
+(pdftex.def)             Requested size: 70.38779pt x 35.7585pt.
+<images/NAND.png, id=22, 141.52875pt x 70.01157pt>
+File: images/NAND.png Graphic file (type png)
+<use images/NAND.png>
+Package pdftex.def Info: images/NAND.png  used on input line 60.
+(pdftex.def)             Requested size: 70.76419pt x 35.00569pt.
+<images/NOR.png, id=23, 145.29282pt x 72.27pt>
+File: images/NOR.png Graphic file (type png)
+<use images/NOR.png>
+Package pdftex.def Info: images/NOR.png  used on input line 62.
+(pdftex.def)             Requested size: 72.64622pt x 36.1349pt.
+<images/XOR.png, id=24, 144.54pt x 68.50594pt>
+File: images/XOR.png Graphic file (type png)
+<use images/XOR.png>
+Package pdftex.def Info: images/XOR.png  used on input line 64.
+(pdftex.def)             Requested size: 72.2698pt x 34.25288pt.
+<images/XNOR.png, id=25, 130.23656pt x 64.74188pt>
+File: images/XNOR.png Graphic file (type png)
+<use images/XNOR.png>
+Package pdftex.def Info: images/XNOR.png  used on input line 66.
+(pdftex.def)             Requested size: 65.11812pt x 32.37085pt.
+\g__nicematrix_ddots_int=\count495
+\g__nicematrix_iddots_int=\count496
+\g__nicematrix_delta_x_one_dim=\dimen373
+\g__nicematrix_delta_y_one_dim=\dimen374
+\g__nicematrix_delta_x_two_dim=\dimen375
+\g__nicematrix_delta_y_two_dim=\dimen376
+\l__nicematrix_initial_i_int=\count497
+\l__nicematrix_initial_j_int=\count498
+\l__nicematrix_final_i_int=\count499
+\l__nicematrix_final_j_int=\count500
+<images/booleanaxioms.png, id=26, 217.81375pt x 135.50626pt>
+File: images/booleanaxioms.png Graphic file (type png)
+<use images/booleanaxioms.png>
+Package pdftex.def Info: images/booleanaxioms.png  used on input line 76.
+(pdftex.def)             Requested size: 217.8132pt x 135.5059pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[2 <./images/buffer.png> <./images/NOT.png> <./images/AND.png> <./images/OR.png
+> <./images/NAND.png> <./images/NOR.png> <./images/XOR.png> <./images/XNOR.png>
+]
+
+[3 <./images/booleanaxioms.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+<images/halfadder.png, id=45, 248.42813pt x 137.7647pt>
+File: images/halfadder.png Graphic file (type png)
+<use images/halfadder.png>
+Package pdftex.def Info: images/halfadder.png  used on input line 173.
+(pdftex.def)             Requested size: 124.21376pt x 68.88217pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+
+[4]
+<images/SRLatch.png, id=49, 1927.2pt x 1204.5pt>
+File: images/SRLatch.png Graphic file (type png)
+<use images/SRLatch.png>
+Package pdftex.def Info: images/SRLatch.png  used on input line 215.
+(pdftex.def)             Requested size: 96.36565pt x 60.22852pt.
+<images/SRLatchSymbol.png, id=50, 83.31125pt x 75.28125pt>
+File: images/SRLatchSymbol.png Graphic file (type png)
+<use images/SRLatchSymbol.png>
+Package pdftex.def Info: images/SRLatchSymbol.png  used on input line 215.
+(pdftex.def)             Requested size: 62.48328pt x 56.46078pt.
+<images/JKFlipFlop.png, id=51, 533.995pt x 275.0275pt>
+File: images/JKFlipFlop.png Graphic file (type png)
+<use images/JKFlipFlop.png>
+Package pdftex.def Info: images/JKFlipFlop.png  used on input line 216.
+(pdftex.def)             Requested size: 133.49841pt x 68.7567pt.
+<images/JKFlipFlopSymbol.png, id=52, 1027.84pt x 1027.84pt>
+File: images/JKFlipFlopSymbol.png Graphic file (type png)
+<use images/JKFlipFlopSymbol.png>
+Package pdftex.def Info: images/JKFlipFlopSymbol.png  used on input line 216.
+(pdftex.def)             Requested size: 82.22887pt x 82.22887pt.
+<images/DFlipFlop.png, id=53, 1027.84pt x 1101.11375pt>
+File: images/DFlipFlop.png Graphic file (type png)
+<use images/DFlipFlop.png>
+Package pdftex.def Info: images/DFlipFlop.png  used on input line 217.
+(pdftex.def)             Requested size: 102.79001pt x 110.11783pt.
+<images/DFlipFlopSymbol.png, id=54, 803.0pt x 963.6pt>
+File: images/DFlipFlopSymbol.png Graphic file (type png)
+<use images/DFlipFlopSymbol.png>
+Package pdftex.def Info: images/DFlipFlopSymbol.png  used on input line 217.
+(pdftex.def)             Requested size: 80.3047pt x 96.36565pt.
+
+
+[5 <./images/halfadder.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+<images/asynchronous.png, id=59, 1284.8pt x 904.37875pt>
+File: images/asynchronous.png Graphic file (type png)
+<use images/asynchronous.png>
+Package pdftex.def Info: images/asynchronous.png  used on input line 229.
+(pdftex.def)             Requested size: 128.48752pt x 90.44316pt.
+
+Underfull \hbox (badness 1052) in paragraph at lines 230--230
+[]\OT1/cmr/m/n/10 Figure 3: A 2-bit asyn-chronous
+ []
+
+<images/synchronous.png, id=60, 1927.2pt x 1037.8775pt>
+File: images/synchronous.png Graphic file (type png)
+<use images/synchronous.png>
+Package pdftex.def Info: images/synchronous.png  used on input line 235.
+(pdftex.def)             Requested size: 192.7313pt x 103.79382pt.
+
+Overfull \hbox (37.48235pt too wide) in paragraph at lines 235--236
+ [][] 
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 236--236
+[]\OT1/cmr/m/n/10 Figure 4: A 4-bit syn-chronous
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[6 <./images/SRLatch.png> <./images/SRLatchSymbol.png> <./images/JKFlipFlop.png
+> <./images/JKFlipFlopSymbol.png> <./images/DFlipFlop.png> <./images/DFlipFlopS
+ymbol.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+<images/Straight.png, id=70, 934.99312pt x 298.11375pt>
+File: images/Straight.png Graphic file (type png)
+<use images/Straight.png>
+Package pdftex.def Info: images/Straight.png  used on input line 251.
+(pdftex.def)             Requested size: 140.2429pt x 44.71513pt.
+
+Underfull \hbox (badness 1132) in paragraph at lines 252--252
+[]\OT1/cmr/m/n/10 Figure 5: A 4-bit straight ring
+ []
+
+<images/Twisted.png, id=71, 763.35187pt x 288.3272pt>
+File: images/Twisted.png Graphic file (type png)
+<use images/Twisted.png>
+Package pdftex.def Info: images/Twisted.png  used on input line 257.
+(pdftex.def)             Requested size: 114.49783pt x 43.24721pt.
+
+Underfull \hbox (badness 1509) in paragraph at lines 258--258
+[]\OT1/cmr/m/n/10 Figure 6: A 3-bit twisted ring
+ []
+
+
+
+[7 <./images/asynchronous.png> <./images/synchronous.png> <./images/Straight.pn
+g> <./images/Twisted.png>]
+<images/demorg.png, id=79, 566.115pt x 515.67656pt>
+File: images/demorg.png Graphic file (type png)
+<use images/demorg.png>
+Package pdftex.def Info: images/demorg.png  used on input line 291.
+(pdftex.def)             Requested size: 113.221pt x 103.13348pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[8]
+<images/DFF.png, id=83, 618.81187pt x 380.92313pt>
+File: images/DFF.png Graphic file (type png)
+<use images/DFF.png>
+Package pdftex.def Info: images/DFF.png  used on input line 332.
+(pdftex.def)             Requested size: 185.64499pt x 114.2778pt.
+
+
+[9 <./images/demorg.png> <./images/DFF.png>]
+<images/asyncCount.png, id=89, 762.59906pt x 302.63063pt>
+File: images/asyncCount.png Graphic file (type png)
+<use images/asyncCount.png>
+Package pdftex.def Info: images/asyncCount.png  used on input line 342.
+(pdftex.def)             Requested size: 228.78148pt x 90.78989pt.
+<images/johnson.png, id=90, 831.85782pt x 382.42876pt>
+File: images/johnson.png Graphic file (type png)
+<use images/johnson.png>
+Package pdftex.def Info: images/johnson.png  used on input line 352.
+(pdftex.def)             Requested size: 249.55927pt x 114.7295pt.
+
+
+[10 <./images/asyncCount.png> <./images/johnson.png>]
+Overfull \hbox (48.67293pt too wide) in paragraph at lines 364--373
+ [][] 
+ []
+
+
+
+[11]
+
+[12]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[13]
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+
+ []
+
+
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
+
+ []
+
+
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 569--570
+
+ []
+
+
+
+[17]
+
+[18
+
+]
+
+[19] (digitalcircuits.aux)
+ ***********
+LaTeX2e <2024-11-01>
+L3 programming layer <2024-10-09>
+ ***********
+Package logreq Info: Writing requests to 'digitalcircuits.run.xml'.
+\openout1 = `digitalcircuits.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 43953 strings out of 473702
+ 1090962 string characters out of 5719914
+ 2115160 words of memory out of 5000000
+ 66578 multiletter control sequences out of 15000+600000
+ 567959 words of font info for 74 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,17n,93p,2032b,1945s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmcsc10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/asus/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/asus/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/asus/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/asus/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/
+asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/
+Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmti10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/symbols/msam10.pfb>
+Output written on digitalcircuits.pdf (20 pages, 811168 bytes).
+PDF statistics:
+ 187 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+

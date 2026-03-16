@@ -1,0 +1,15 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[6] Config.pm:311> INFO - Logfile is 'digitalcircuits.blg'
+[418] biber-MSWIN64:340> INFO - === 
+[578] Biber.pm:420> INFO - Reading 'digitalcircuits.bcf'
+[796] Biber.pm:994> INFO - Found 12 citekeys in bib section 0
+[832] Biber.pm:4463> INFO - Processing section 0
+[884] Biber.pm:4654> INFO - Looking for bibtex file 'EEE104.bib' for section 0
+[969] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1022] bibtex.pm:1519> INFO - Found BibTeX data source 'EEE104.bib'
+[1358] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1358] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1358] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1358] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1450] bbl.pm:676> INFO - Writing 'digitalcircuits.bbl' with encoding 'UTF-8'
+[1460] bbl.pm:779> INFO - Output to digitalcircuits.bbl
